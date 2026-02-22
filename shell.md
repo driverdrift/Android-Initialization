@@ -36,7 +36,7 @@ pm uninstall -k --user 0 com.miui.weather2	# -k (Keep Data and Cache Directories
 
 Otherwise unistall such as com.android.provision will cause system panic.
 ```
-for pkg in $(pm list packages | cut -d':' -f2 | grep -Ev '^(com\.android|com\.google)'); do
+for pkg in $(pm list packages | cut -d':' -f2 | grep -Ev '^(com\.android|com\.google|com\.qti)'); do
 	echo "Trying to unistall: $pkg"
 	pm uninstall --user 0 "$pkg"
 done
