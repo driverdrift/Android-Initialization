@@ -33,3 +33,4 @@ pm enable com.miui.weather2					# set new state: enabled
 pm uninstall --user 0 <name of package>
 pm uninstall -k --user 0 com.miui.weather2	# -k (Keep Data and Cache Directories)
 ```
+aaa
