@@ -49,3 +49,11 @@ for pkg in $(pm list packages -3 | cut -d':' -f2); do
 	pm uninstall --user 0 "$pkg"
 done
 ```
+
+debug
+```
+pm path package-name
+adb pull /data/app/xxx/base.apk
+dumpsys package com.xiaomi.gamecenter
+aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android SDK)
+```
