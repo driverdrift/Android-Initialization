@@ -41,3 +41,11 @@ for pkg in $(pm list packages | cut -d':' -f2 | grep -Ev '^(com\.android|com\.go
 	pm uninstall --user 0 "$pkg"
 done
 ```
+
+all path in package:/data/app/
+```
+for pkg in $(pm list packages -3 | cut -d':' -f2); do
+	echo "Trying to unistall: $pkg"
+	pm uninstall --user 0 "$pkg"
+done
+```
