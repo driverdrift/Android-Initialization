@@ -14,5 +14,5 @@ pm list packages
 List third-party packages
 ```
 pm list packages -3
-pm list packages -3 | wc -l  # wc (word count)
+pm list packages -3 | wc -l  # wc (word count), -l (Lines)
 ```
