@@ -75,7 +75,8 @@ tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 ESTABLISHED
 ```
 
 ```
-adb usb  # Set target device to restart in USB mode
+adb usb  # Set target device to restart in USB mode,also you can run as code below
+adb reboot  # adbd reverts to USB mode by default.
 netstat -an | grep 5555  # result is (This TIME_WAIT record will disappear in a few seconds.):
 tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 TIME_WAIT
 ```
