@@ -89,6 +89,8 @@ ForEach-Object {
     adb pull $path "com.google.android.inputmethod.latin.$name"
 }
 ```
+
+```
 $apks = Get-ChildItem "C:\My Data\Software Repository\Android\com.google.android.inputmethod.latin.*.apk"
 adb install-multiple $apks.FullName
 ```
