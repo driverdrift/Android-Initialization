@@ -8,11 +8,7 @@ adb shell
 adb -s <target-device-ID> shell  # If more than one device/emulator
 ```
 
-```
-pm list packages
-```
-
-List third-party packages
+List packages in shell.
 ```
 pm list packages				# List all installed packages
 pm list packages -s				# List only system packages
