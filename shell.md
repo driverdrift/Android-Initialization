@@ -75,6 +75,7 @@ adb pull /data/app/xxx/base.apk
 dumpsys package com.xiaomi.gamecenter
 aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android SDK)
 ```
+# Export
 For an app with many apks.
 ```
 pm list packages -f | grep com.google.android.inputmethod.latin  # only show one path.
