@@ -1,6 +1,7 @@
 1. Configure keyboard
 ```
-adb install "C:\My Data\Software Repository\Android\com.google.android.inputmethod.latin.apk"  # Gboard
+$apks = Get-ChildItem "C:\My Data\Software Repository\Android\com.google.android.inputmethod.latin.*.apk"
+adb install-multiple $apks.FullName  # Gboard
 ```
 Setup > System manage and upgrade > input: close `safe input` option to generate a hidden config that use common keyboard to input password, otherwise will exit when input password when safekeyboard is uninstalled.
 If uninstall this app without generate a hidden config first, you can run the code below to recover it first:  
