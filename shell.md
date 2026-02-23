@@ -57,3 +57,15 @@ adb pull /data/app/xxx/base.apk
 dumpsys package com.xiaomi.gamecenter
 aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android SDK)
 ```
+
+# Wireless debugging
+Set target device to listen for a TCP/IP connection on port 5555.
+```
+adb tcpip 5555
+adb connect 192.168.0.110:5555
+netstat -an | grep 5555
+# result: tcp6	0	0	[::]:5555	[::]:*	LISTEN
+```
+```
+
+```
