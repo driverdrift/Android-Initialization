@@ -3,7 +3,11 @@
 ```
 pm list packages -s | sort
 ```
-
+Keep
 ```
-com.android.camera # 相机
+android # Android 系统
+```
+Uninstall
+```
+
 ```
