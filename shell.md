@@ -31,6 +31,14 @@ pm uninstall --user 0 <name of package>
 pm uninstall -k --user 0 com.miui.weather2	# -k (Keep Data and Cache Directories)
 ```
 
+# User
+```
+pm list users  # List all users on the device.
+pm list packages --user 0
+pm create-user <USER_NAME>  # will return an user id
+pm remove-user <user_id>  # should log out the target user first
+```
+
 Otherwise unistall such as com.android.provision will cause system panic.
 ```
 for pkg in $(pm list packages | cut -d':' -f2 | grep -Ev '^(com\.android|com\.google|com\.qti)'); do
