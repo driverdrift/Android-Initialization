@@ -2,9 +2,10 @@ List of devices attached
 ```
 adb devices
 ```
-
+Run remote shell commands on a device.
 ```
 adb shell
+adb -s <target-device-ID> shell  # If more than one device/emulator
 ```
 
 ```
