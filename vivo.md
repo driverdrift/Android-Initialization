@@ -13,5 +13,5 @@ pm install-existing com.vivo.secime.service  # install for user: 0, or you can r
 cmd package install-existing com.vivo.secime.service # also you can run the code below:
 
 pm list packages -f | grep com.vivo.secime.service  # get the path
-pm install /data/app/~~MTdB6OPdq6G-7oQXZA3v-A==/com.vivo.secime.service-A_tJ0IrzrDkrjbETXVxiVw==/base.apk=com.vivo.secime.service
+pm install /data/app/~~MTdB6OPdq6G-7oQXZA3v-A==/com.vivo.secime.service-A_tJ0IrzrDkrjbETXVxiVw==/base.apk  # no =com.vivo.secime.service
 ```
