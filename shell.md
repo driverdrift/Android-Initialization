@@ -64,14 +64,21 @@ aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android
 ```
 
 # Wireless debugging
-Set adbd process of target device in TCP mode
+First use an usb,then set adbd process of target device in TCP mode
 ```
 adb tcpip 5555  # Set target device to listen for a TCP/IP connection on port 5555.
 # Temporary listener; will revert after device reboot.
 adb shell "netstat -an | grep 5555"  # result is:
 tcp6       0      0 [::]:5555               [::]:*                  LISTEN
-
 ```
+You can also enable wireless debug directly without usb connect first.  
+Enable wireless debug in develop mode.
+```
+adb pair 192.168.0.110:pair_port  # Enter pairing code
+adb connect 192.168.0.110:connect_port
+```
+
+
 Connect device via internet.
 ```
 adb connect 192.168.0.110:5555
