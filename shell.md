@@ -59,6 +59,7 @@ aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android
 ```
 
 # Wireless debugging
+Set adbd process of target device in TCP mode
 ```
 adb tcpip 5555  # Set target device to listen for a TCP/IP connection on port 5555.
 # Temporary listener; will revert after device reboot.
@@ -66,21 +67,22 @@ adb shell netstat -an | grep 5555  # result is:
 tcp6       0      0 [::]:5555               [::]:*                  LISTEN
 
 ```
-
+Connect device via internet.
 ```
 adb connect 192.168.0.110:5555
 netstat -an | grep 5555  # result is:
 tcp6       0      0 [::]:5555               [::]:*                  LISTEN
 tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 ESTABLISHED
 ```
-
+Recover device to usb mode.
 ```
-adb usb  # Set target device to restart in USB mode,also you can run as code below
+adb usb  # Set target device to restart in USB mode, also you can run as code below
 adb reboot  # adbd reverts to USB mode by default.
 netstat -an | grep 5555  # result is (This TIME_WAIT record will disappear in a few seconds.):
 tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 TIME_WAIT
 ```
 
+Remove connected device
 ```
 adb devices
 adb disconnect 192.168.0.110:5555  # to remove remote connect, you can also run as code below:
