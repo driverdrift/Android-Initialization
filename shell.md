@@ -38,7 +38,7 @@ adb install path/to/app.apk
 adb install -r path/to/app.apk  # keep data
 adb install -r -d  path/to/app.apk # keep data, allow downgrade
 
-adb uninstall <name of package>
+adb uninstall <name of package>  # some app need root
 pm uninstall --user 0 <name of package>
 pm uninstall -k --user 0 com.miui.weather2	# -k (Keep Data and Cache Directories)
 ```
