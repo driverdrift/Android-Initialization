@@ -23,6 +23,6 @@ pm install /system/app/SecIME/SecIME.apk  # no =com.vivo.secime.service
 ```
 for pkg in $(pm list packages -3 | cut -d':' -f2); do
 	echo "Trying to unistall: $pkg"
-	pm uninstall --user 0 "$pkg"
+	pm uninstall "$pkg"
 done
 ```
