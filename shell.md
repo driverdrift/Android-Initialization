@@ -84,5 +84,5 @@ tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 TIME_WAIT
 ```
 adb devices
 adb disconnect 192.168.0.110:5555  # to remove remote connect, you can also run as code below:
-adb kill-server && adb start-server
+adb kill-server; adb start-server
 ```
