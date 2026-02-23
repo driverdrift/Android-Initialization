@@ -75,6 +75,19 @@ adb pull /data/app/xxx/base.apk
 dumpsys package com.xiaomi.gamecenter
 aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android SDK)
 ```
+For an app with many apks.
+```
+pm list packages -f | grep com.google.android.inputmethod.latin  # only show one path.
+pm path com.google.android.inputmethod.latin  # show all paths
+```
+```
+adb shell pm path com.google.android.inputmethod.latin |
+ForEach-Object {
+    $path = ($_ -split ":")[1].Trim()
+    $name = Split-Path $path -Leaf
+    adb pull $path "com.google.android.inputmethod.latin.$name"
+}
+```
 
 # Wireless debugging
 First use an usb,then set adbd process of target device in TCP mode
