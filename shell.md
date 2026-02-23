@@ -59,13 +59,23 @@ aapt dump badging MiGameCenter.apk | grep application-label  # aapt（in Android
 ```
 
 # Wireless debugging
-Set target device to listen for a TCP/IP connection on port 5555.
 ```
-adb tcpip 5555
-adb connect 192.168.0.110:5555
-netstat -an | grep 5555
-# result: tcp6	0	0	[::]:5555	[::]:*	LISTEN
-```
+adb tcpip 5555  # Set target device to listen for a TCP/IP connection on port 5555.
+adb shell
+netstat -an | grep 5555  # result is:
+tcp6       0      0 [::]:5555               [::]:*                  LISTEN
+
 ```
 
+```
+adb connect 192.168.0.110:5555
+netstat -an | grep 5555  # result is:
+tcp6       0      0 [::]:5555               [::]:*                  LISTEN
+tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 ESTABLISHED
+```
+
+```
+adb usb  # Set target device to restart in USB mode
+netstat -an | grep 5555  # result is (This TIME_WAIT record will disappear in a few seconds.):
+tcp6       0      0 ::ffff:192.168.0.1:5555 ::ffff:192.168.0.:58047 TIME_WAIT
 ```
