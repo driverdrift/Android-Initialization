@@ -27,6 +27,12 @@ pm enable com.miui.weather2					# set new state: enabled
 pm hide --user 0 com.miui.weather2			# need root
 ```
 
+Prints the current state of all activities and activity stacks in the system.
+```
+dumpsys activity activities
+dumpsys activity services | grep xxx
+```
+
 ```
 adb install path/to/app.apk
 adb install -r path/to/app.apk  # keep data
@@ -45,7 +51,8 @@ pm create-user <USER_NAME>  # will return an user id
 pm remove-user <user_id>  # should log out the target user first
 ```
 
-Otherwise unistall such as com.android.provision will cause system panic.
+# Uninstall
+Otherwise uninstall such as com.android.provision will cause system panic.
 ```
 for pkg in $(pm list packages | cut -d':' -f2 | grep -Ev '^(com\.android|com\.google|com\.qti)'); do
 	echo "Trying to unistall: $pkg"
