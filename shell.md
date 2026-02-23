@@ -22,8 +22,9 @@ pm list packages | grep xxx		# Search xxx
 pm list packages -e							# Lists only applications that are currently enabled.
 pm list packages -d							# Lists only applications that are currently disabled.
 pm disable-user --user 0 com.miui.weather2	# for current user
-pm disable com.miui.weather2				# need root
+pm disable com.miui.weather2				# some app need root
 pm enable com.miui.weather2					# set new state: enabled
+pm hide --user 0 com.miui.weather2			# need root
 ```
 
 ```
