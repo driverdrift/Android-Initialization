@@ -1,4 +1,4 @@
-1. Configure keyboard
+# Configure keyboard
 ```
 $apks = Get-ChildItem "C:\My Data\Software Repository\Android\com.google.android.inputmethod.latin.*.apk"
 adb install-multiple $apks.FullName  # Gboard
@@ -18,4 +18,11 @@ pm install /system/app/SecIME/SecIME.apk  # no =com.vivo.secime.service
 ```
 ```
 # adb install "C:\My Data\Software Repository\Android\AppManager_v4.0.5.apk"  # debug
+```
+# third-party app
+```
+for pkg in $(pm list packages -3 | cut -d':' -f2); do
+	echo "Trying to unistall: $pkg"
+	pm uninstall --user 0 "$pkg"
+done
 ```
