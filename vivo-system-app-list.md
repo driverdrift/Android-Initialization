@@ -13,7 +13,7 @@ pm list packages -s | sort | cut -d':' -f2
 --user 0 android.overlay.vrro # android.overlay.vrro
 --user 0 android.qvaoverlay.common # android.qvaoverlay.common；厂商提供的系统资源覆盖包
 --user 0 com.amap.android.location # 网络位置
-# com.android.BBKClock # 闹钟时钟
+# com.android.BBKClock # 闹钟时钟；可手动卸载
 # com.android.BBKCrontab # 定时任务
 com.android.VideoPlayer # i 视频
 --user 0 com.android.adservices.api # Android 系统；广告服务
