@@ -6,57 +6,57 @@ pm list packages -s | sort | cut -d':' -f2
 
 ```
 # android # Android 系统
---user 0 android.ext.services # Android Services Library
---user 0 android.overlay.common # android.overlay.common
---user 0 android.overlay.target # android.overlay.target
---user 0 android.overlay.vivoresrro # android.overlay.vivoresrro
+--user 0 android.ext.services # Android Services Library；提供一些可独立更新的系统扩展服务
+--user 0 android.overlay.common # android.overlay.common；系统资源覆盖包
+--user 0 android.overlay.target # android.overlay.target；系统资源覆盖（RRO）目标包
+--user 0 android.overlay.vivoresrro # android.overlay.vivoresrro；vivo 设备厂商提供的系统资源覆盖包
 --user 0 android.overlay.vrro # android.overlay.vrro
---user 0 android.qvaoverlay.common # android.qvaoverlay.common
-com.amap.android.location # 网络位置
-com.android.BBKClock # 闹钟时钟
-com.android.BBKCrontab # 定时任务
+--user 0 android.qvaoverlay.common # android.qvaoverlay.common；厂商提供的系统资源覆盖包
+--user 0 com.amap.android.location # 网络位置
+# com.android.BBKClock # 闹钟时钟
+# com.android.BBKCrontab # 定时任务
 com.android.VideoPlayer # i 视频
-com.android.adservices.api # Android 系统
-com.android.backupconfirm # com.android.backupconfirm
+--user 0 com.android.adservices.api # Android 系统；广告服务
+--user 0 com.android.backupconfirm # com.android.backupconfirm
 com.android.bbk.lockscreen3 # 一键锁屏
 com.android.bbkcalculator # 计算器
-com.android.bbklog # 日志信息采集
-com.android.bbkmusic # i 音乐
+--user 0 com.android.bbklog # 日志信息采集
+# com.android.bbkmusic # i 音乐
 com.android.bbksoundrecorder # 录音机
-com.android.bips # 打印
-com.android.bluetooth # 蓝牙
-com.android.bluetoothmidiservice # Bluetooth MIDI Service
-com.android.browser # BrowserPlug
-com.android.calllogbackup # Call Log Backup/Restore
-com.android.camera # 相机
-com.android.cameraextensions # CameraExtensionsProxy
-com.android.captiveportallogin # 登录WLAN网络
-com.android.carrierconfig # com.android.carrierconfig
-com.android.carrierconfig.overlay.common # com.android.carrierconfig.overlay.common
-com.android.carrierdefaultapp # 运营商通知
-com.android.cellbroadcastreceiver # 无线紧急警报
-com.android.cellbroadcastreceiver.overlay.common # com.android.cellbroadcastreceiver.overlay.common
-com.android.cellbroadcastservice # Cell Broadcast Service
-com.android.certinstaller # 证书安装程序
-com.android.companiondevicemanager # 配套设备管理器
-com.android.connectivity.resources # 系统网络连接资源
-com.android.contacts # 电话与联系人
-com.android.credentialmanager # Credential Manager
-com.android.cts.ctsshim # com.android.cts.ctsshim
-com.android.cts.priv.ctsshim # com.android.cts.priv.ctsshim
-com.android.devicelockcontroller # DeviceLockController
-com.android.documentsui # com.android.documentsui
-com.android.dynsystem # Dynamic System Updates
-com.android.egg # Android Easter Egg
-com.android.emergency # 急救信息
-com.android.ext.adservices.api # Android 系统
-com.android.externalstorage # 外部存储设备
-com.android.federatedcompute.services # com.android.federatedcompute.services
-com.android.filemanager # 文件管理
-com.android.health.connect.backuprestore # com.android.health.connect.backuprestore
-com.android.healthconnect.controller # Health Connect
-com.android.hotspot2.osulogin # OsuLogin
-com.android.htmlviewer # HTML 查看程序
+# com.android.bips # 打印
+# --user 0 com.android.bluetooth # 蓝牙
+--user 0 com.android.bluetoothmidiservice # Bluetooth MIDI Service；支持通过蓝牙传输 MIDI 数据从而控制乐器
+--user 0 com.android.browser # BrowserPlug；AOSP 浏览器组件；在新版本 Android 中已被替代
+--user 0 com.android.calllogbackup # Call Log Backup/Restore；通话记录备份/恢复服务。
+# --user 0 com.android.camera # 相机
+--user 0 com.android.cameraextensions # CameraExtensionsProxy；提供相机扩展功能接口给第三方或系统相机应用从而使用高级功能如夜景模式
+--user 0 com.android.captiveportallogin # 登录WLAN网络；处理需要网页验证的 Wi-Fi 网络，弹出登陆页面
+# com.android.carrierconfig # com.android.carrierconfig；根据移动运营商提供的配置调整系统行为
+# com.android.carrierconfig.overlay.common # com.android.carrierconfig.overlay.common；覆盖 com.android.carrierconfig 默认资源和配置
+# com.android.carrierdefaultapp # 运营商通知
+# com.android.cellbroadcastreceiver # 无线紧急警报
+# com.android.cellbroadcastreceiver.overlay.common # com.android.cellbroadcastreceiver.overlay.common
+# com.android.cellbroadcastservice # Cell Broadcast Service
+# com.android.certinstaller # 证书安装程序
+# com.android.companiondevicemanager # 配套设备管理器
+# com.android.connectivity.resources # 系统网络连接资源
+# com.android.contacts # 电话与联系人
+# com.android.credentialmanager # Credential Manager
+# com.android.cts.ctsshim # com.android.cts.ctsshim
+# com.android.cts.priv.ctsshim # com.android.cts.priv.ctsshim
+# com.android.devicelockcontroller # DeviceLockController
+# com.android.documentsui # com.android.documentsui
+# com.android.dynsystem # Dynamic System Updates
+# com.android.egg # Android Easter Egg
+# com.android.emergency # 急救信息
+# com.android.ext.adservices.api # Android 系统；扩展广告服务模块
+# com.android.externalstorage # 外部存储设备
+# com.android.federatedcompute.services # com.android.federatedcompute.services
+# com.android.filemanager # 文件管理
+# com.android.health.connect.backuprestore # com.android.health.connect.backuprestore
+# com.android.healthconnect.controller # Health Connect
+# com.android.hotspot2.osulogin # OsuLogin
+# com.android.htmlviewer # HTML 查看程序
 com.android.incallui # 电话管理
 com.android.inputdevices # 输入设备
 com.android.intentresolver # 分享
