@@ -182,7 +182,7 @@ com.funtouch.uiengine # LockScreenStyleEngine
 --user 0 com.google.android.overlay.gmsconfig.common # com.google.android.overlay.gmsconfig.common
 --user 0 com.google.android.printservice.recommendation # Print Service Recommendation Service
 --user 0 com.google.android.syncadapters.calendar # Google 日历同步
---user 0 com.google.android.webview # Android System WebView
+# --user 0 com.google.android.webview # Android System WebView；卸载后重启无法开机变砖
 --user 0 com.google.android.wifi.resources.overlay.common # com.google.android.wifi.resources.overlay.common
 --user 0 com.google.ar.core # ARCore
 # com.iqoo.powersaving # 电池
