@@ -126,257 +126,257 @@ com.android.traceur # 系统跟踪
 com.android.uwb.resources # System UWB Resources
 com.android.vending # Google Play Services Updater
 com.android.vendors.bridge.softsim # com.android.vendors.bridge.softsim
-com.android.virtualmachine.res # com.android.virtualmachine.res
-com.android.vivo.tws.vivotws # vivo TWS
-com.android.vpndialogs # VpnDialogs
-com.android.wallpaperbackup # com.android.wallpaperbackup
-com.android.wallpapercropper # com.android.wallpapercropper
-com.android.wifi.dialog # com.android.wifi.dialog
-com.android.wifi.resources # 系统 WLAN 资源
-com.android.wifi.resources.overlay.common # com.android.wifi.resources.overlay.common
-com.android.wifi.resources.overlay.target # com.android.wifi.resources.overlay.target
-com.baidu.input_vivo # 百度输入法定制版
-com.baidu.map.location # 网络位置
-com.bbk.SuperPowerSave # 超级省电
-com.bbk.account # vivo账号
-com.bbk.appstore # 应用商店
+--user 0 com.android.virtualmachine.res # com.android.virtualmachine.res
+--user 0 com.android.vivo.tws.vivotws # vivo TWS
+--user 0 com.android.vpndialogs # VpnDialogs
+--user 0 com.android.wallpaperbackup # com.android.wallpaperbackup
+--user 0 com.android.wallpapercropper # com.android.wallpapercropper
+--user 0 com.android.wifi.dialog # com.android.wifi.dialog
+--user 0 com.android.wifi.resources # 系统 WLAN 资源
+--user 0 com.android.wifi.resources.overlay.common # com.android.wifi.resources.overlay.common
+--user 0 com.android.wifi.resources.overlay.target # com.android.wifi.resources.overlay.target
+--user 0 com.baidu.input_vivo # 百度输入法定制版
+--user 0 com.baidu.map.location # 网络位置
+# com.bbk.SuperPowerSave # 超级省电
+# com.bbk.account # vivo账号
+# com.bbk.appstore # 应用商店
 com.bbk.calendar # 日历
-com.bbk.cloud # 云服务
-com.bbk.facewake # 智能保持亮屏
+# com.bbk.cloud # 云服务
+--user 0 com.bbk.facewake # 智能保持亮屏
 com.bbk.iqoo.feedback # 意见反馈
-com.bbk.iqoo.logsystem # 用户体验改进计划服务
-com.bbk.launcher2 # 系统桌面
-com.bbk.lite.theme # 系统美化
-com.bbk.photoframewidget # 相框
-com.bbk.scene.databaseprovider # SceneDatabaseProvider
-com.bbk.scene.launcher.theme # SceneThemeLauncher
-com.bbk.theme # i 主题
-com.bbk.theme.resources # vivoWallpaperRes
-com.bbk.updater # 系统升级
-com.fido.client # FIDO认证器
-com.focal.touch.datashow # DataShow
-com.focal.touch.sensorcheck # FocalTech Sensor Check
+--user 0 com.bbk.iqoo.logsystem # 用户体验改进计划服务
+# com.bbk.launcher2 # 系统桌面
+# com.bbk.lite.theme # 系统美化
+--user 0 com.bbk.photoframewidget # 相框
+--user 0 com.bbk.scene.databaseprovider # SceneDatabaseProvider
+--user 0 com.bbk.scene.launcher.theme # SceneThemeLauncher
+# com.bbk.theme # i 主题；可手动删除
+--user 0 com.bbk.theme.resources # vivoWallpaperRes
+# com.bbk.updater # 系统升级
+--user 0 com.fido.client # FIDO认证器
+--user 0 com.focal.touch.datashow # DataShow
+--user 0 com.focal.touch.sensorcheck # FocalTech Sensor Check
 com.funtouch.uiengine # LockScreenStyleEngine
-com.google.android.accessibility.switchaccess # 开关控制
-com.google.android.configupdater # ConfigUpdater
-com.google.android.ext.shared # Android Shared Library
-com.google.android.gms # Google Play 服务
-com.google.android.gsf # Google 服务框架
-com.google.android.marvin.talkback # Android 无障碍套件
-com.google.android.onetimeinitializer # Google One Time Init
-com.google.android.overlay.gmsconfig.common # com.google.android.overlay.gmsconfig.common
-com.google.android.printservice.recommendation # Print Service Recommendation Service
-com.google.android.syncadapters.calendar # Google 日历同步
-com.google.android.webview # Android System WebView
-com.google.android.wifi.resources.overlay.common # com.google.android.wifi.resources.overlay.common
-com.google.ar.core # ARCore
-com.iqoo.powersaving # 电池
-com.iqoo.secure # i 管家
+--user 0 com.google.android.accessibility.switchaccess # 开关控制
+--user 0 com.google.android.configupdater # ConfigUpdater
+--user 0 com.google.android.ext.shared # Android Shared Library
+# com.google.android.gms # Google Play 服务
+# com.google.android.gsf # Google 服务框架
+--user 0 com.google.android.marvin.talkback # Android 无障碍套件
+--user 0 com.google.android.onetimeinitializer # Google One Time Init
+--user 0 com.google.android.overlay.gmsconfig.common # com.google.android.overlay.gmsconfig.common
+--user 0 com.google.android.printservice.recommendation # Print Service Recommendation Service
+--user 0 com.google.android.syncadapters.calendar # Google 日历同步
+--user 0 com.google.android.webview # Android System WebView
+--user 0 com.google.android.wifi.resources.overlay.common # com.google.android.wifi.resources.overlay.common
+--user 0 com.google.ar.core # ARCore
+# com.iqoo.powersaving # 电池
+# com.iqoo.secure # i 管家；可以手动删除
 com.mobile.cos.iroaming # iRoamingService
 com.mobile.iroaming # 流量商店
-com.mobiletools.systemhelper # SystemHelper
-com.nt36xxxtouchscreen.deltadiff # Noise Test
-com.nttouchscreen.getdata # RawDelta Test
-com.nvt.touch.sensorcheck # NVT MP Test
-com.qti.confuridialer # Conference URI Dialer
-com.qti.diagservices # com.qti.diagservices
-com.qti.dpmserviceapp # com.qti.dpmserviceapp
-com.qti.ltebc # LTE Broadcast Manager
-com.qti.qcc # QCC
-com.qti.qualcomm.datastatusnotification # com.qti.qualcomm.datastatusnotification
-com.qti.service.colorservice # com.qti.service.colorservice
-com.qualcomm.atfwd # com.qualcomm.atfwd
-com.qualcomm.atfwd2 # com.qualcomm.atfwd2
-com.qualcomm.location # LocationServices
-com.qualcomm.qcrilmsgtunnel # com.qualcomm.qcrilmsgtunnel
-com.qualcomm.qti.cne # CneApp
-com.qualcomm.qti.devicestatisticsservice # com.qualcomm.qti.devicestatisticsservice
-com.qualcomm.qti.dynamicddsservice # com.qualcomm.qti.dynamicddsservice
-com.qualcomm.qti.modemmbnmode # MBN 测试
-com.qualcomm.qti.poweroffalarm # 关机闹钟
-com.qualcomm.qti.qcolor # QColor
-com.qualcomm.qti.qms.service.trustzoneaccess # com.qualcomm.qti.qms.service.trustzoneaccess
-com.qualcomm.qti.remoteSimlockAuth # com.qualcomm.qti.remoteSimlockAuth
-com.qualcomm.qti.ridemodeaudio # RideMode Recording list
-com.qualcomm.qti.server.qtiwifi # QtiWifiService
-com.qualcomm.qti.server.wigig.tethering.rro # com.qualcomm.qti.server.wigig.tethering.rro
-com.qualcomm.qti.simcontacts # SIM卡联系人
-com.qualcomm.qti.telephonyservice # com.qualcomm.qti.telephonyservice
-com.qualcomm.qti.uim # com.qualcomm.qti.uim
-com.qualcomm.qti.uimGbaApp # com.qualcomm.qti.uimGbaApp
-com.qualcomm.qti.workloadclassifier # com.qualcomm.qti.workloadclassifier
-com.qualcomm.qti.xrcb # XRCB
-com.qualcomm.qti.xrvd.service # XRVD
-com.qualcomm.timeservice # com.qualcomm.timeservice
-com.qualcomm.uimremoteclient # com.qualcomm.uimremoteclient
-com.qualcomm.uimremoteserver # com.qualcomm.uimremoteserver
-com.qualcomm.wfd.service # Wfd Service
-com.quicinc.voice.activation # Qualcomm Voice Assist
-com.ringclip # 铃声剪辑
-com.rongcard.eid # Eid-Service
-com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
-com.tencent.soter.soterserver # aidlserverdemo
-com.vivo.SmartKey # 快捷启动
+--user 0 com.mobiletools.systemhelper # SystemHelper
+--user 0 com.nt36xxxtouchscreen.deltadiff # Noise Test
+--user 0 com.nttouchscreen.getdata # RawDelta Test
+--user 0 com.nvt.touch.sensorcheck # NVT MP Test
+--user 0 com.qti.confuridialer # Conference URI Dialer
+--user 0 com.qti.diagservices # com.qti.diagservices
+# com.qti.dpmserviceapp # com.qti.dpmserviceapp
+--user 0 com.qti.ltebc # LTE Broadcast Manager
+--user 0 com.qti.qcc # QCC
+--user 0 com.qti.qualcomm.datastatusnotification # com.qti.qualcomm.datastatusnotification
+--user 0 com.qti.service.colorservice # com.qti.service.colorservice
+--user 0 com.qualcomm.atfwd # com.qualcomm.atfwd
+--user 0 com.qualcomm.atfwd2 # com.qualcomm.atfwd2
+--user 0 com.qualcomm.location # LocationServices
+--user 0 com.qualcomm.qcrilmsgtunnel # com.qualcomm.qcrilmsgtunnel
+# com.qualcomm.qti.cne # CneApp
+--user 0 com.qualcomm.qti.devicestatisticsservice # com.qualcomm.qti.devicestatisticsservice
+--user 0 com.qualcomm.qti.dynamicddsservice # com.qualcomm.qti.dynamicddsservice
+--user 0 com.qualcomm.qti.modemmbnmode # MBN 测试
+--user 0 com.qualcomm.qti.poweroffalarm # 关机闹钟
+--user 0 com.qualcomm.qti.qcolor # QColor
+--user 0 com.qualcomm.qti.qms.service.trustzoneaccess # com.qualcomm.qti.qms.service.trustzoneaccess
+--user 0 com.qualcomm.qti.remoteSimlockAuth # com.qualcomm.qti.remoteSimlockAuth
+--user 0 com.qualcomm.qti.ridemodeaudio # RideMode Recording list
+--user 0 com.qualcomm.qti.server.qtiwifi # QtiWifiService
+--user 0 com.qualcomm.qti.server.wigig.tethering.rro # com.qualcomm.qti.server.wigig.tethering.rro
+--user 0 com.qualcomm.qti.simcontacts # SIM卡联系人
+# com.qualcomm.qti.telephonyservice # com.qualcomm.qti.telephonyservice
+--user 0 com.qualcomm.qti.uim # com.qualcomm.qti.uim
+--user 0 com.qualcomm.qti.uimGbaApp # com.qualcomm.qti.uimGbaApp
+--user 0 com.qualcomm.qti.workloadclassifier # com.qualcomm.qti.workloadclassifier
+--user 0 com.qualcomm.qti.xrcb # XRCB
+--user 0 com.qualcomm.qti.xrvd.service # XRVD
+--user 0 com.qualcomm.timeservice # com.qualcomm.timeservice
+--user 0 com.qualcomm.uimremoteclient # com.qualcomm.uimremoteclient
+--user 0 com.qualcomm.uimremoteserver # com.qualcomm.uimremoteserver
+--user 0 com.qualcomm.wfd.service # Wfd Service
+--user 0 com.quicinc.voice.activation # Qualcomm Voice Assist
+# com.ringclip # 铃声剪辑
+--user 0 com.rongcard.eid # Eid-Service；金邦达开发的的网络数字身份卡
+--user 0 com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
+--user 0 com.tencent.soter.soterserver # aidlserverdemo；腾讯相关应用的指纹支付和登录功能
+# com.vivo.SmartKey # 快捷启动
 com.vivo.Tips # 使用技巧
-com.vivo.abe # 智慧引擎
-com.vivo.accessibility # 无障碍
-com.vivo.accessibilityenhance # Accessibility Enhance
-com.vivo.agent # Jovi语音
-com.vivo.ai.base.copilot # 蓝心小V
+# com.vivo.abe # 智慧引擎
+# com.vivo.accessibility # 无障碍
+# com.vivo.accessibilityenhance # Accessibility Enhance
+# com.vivo.agent # Jovi语音；可手动删除
+--user 0 com.vivo.ai.base.copilot # 蓝心小V
 com.vivo.ai.copilot # 蓝心小V
-com.vivo.ai.gptagent # 智慧体
-com.vivo.aiengine # AI服务引擎
-com.vivo.aiservice # AIService
+--user 0 com.vivo.ai.gptagent # 智慧体
+--user 0 com.vivo.aiengine # AI服务引擎
+--user 0 com.vivo.aiservice # AIService
 com.vivo.alldocuments # vivo万能查看器
-com.vivo.alphacamera # AlphaCamera
-com.vivo.android.connectivity.common.resources.overlay
-com.vivo.android.connectivity.mainline.common.resources.overlay # com.vivo.android.connectivity.common.resources.overlay
-com.vivo.android.connectivity.mainline.manufacturer.resources.overlay # com.vivo.android.connectivity.mainline.common.resources.overlay
-com.vivo.android.connectivity.manufacturer.resources.overlay # com.vivo.android.connectivity.manufacturer.resources.overlay
-com.vivo.android.wifi.common.resources.overlay # com.vivo.android.wifi.common.resources.overlay
-com.vivo.android.wifi.mainline.common.resources.overlay # com.vivo.android.wifi.mainline.common.resources.overlay
-com.vivo.android.wifi.mainline.manufacturer.resources.overlay # com.vivo.android.wifi.mainline.manufacturer.resources.overlay
-com.vivo.android.wifi.manufacturer.resources.overlay # com.vivo.android.wifi.manufacturer.resources.overlay
-com.vivo.appfilter # 防拉起服务
+--user 0 com.vivo.alphacamera # AlphaCamera
+--user 0 com.vivo.android.connectivity.common.resources.overlay # com.vivo.android.connectivity.common.resources.overlay
+--user 0 com.vivo.android.connectivity.mainline.common.resources.overlay # com.vivo.android.connectivity.common.resources.overlay
+--user 0 com.vivo.android.connectivity.mainline.manufacturer.resources.overlay # com.vivo.android.connectivity.mainline.common.resources.overlay
+--user 0 com.vivo.android.connectivity.manufacturer.resources.overlay # com.vivo.android.connectivity.manufacturer.resources.overlay
+--user 0 com.vivo.android.wifi.common.resources.overlay # com.vivo.android.wifi.common.resources.overlay
+--user 0 com.vivo.android.wifi.mainline.common.resources.overlay # com.vivo.android.wifi.mainline.common.resources.overlay
+--user 0 com.vivo.android.wifi.mainline.manufacturer.resources.overlay # com.vivo.android.wifi.mainline.manufacturer.resources.overlay
+--user 0 com.vivo.android.wifi.manufacturer.resources.overlay # com.vivo.android.wifi.manufacturer.resources.overlay
+# com.vivo.appfilter # 防拉起服务
 com.vivo.are # 精彩推荐
-com.vivo.assistant # 重要通知
-com.vivo.audiofx # 音效设置
-com.vivo.base.agent # Jovi语音
-com.vivo.base.gallery # 图像查看
-com.vivo.base.player # 音频播放器(系统)
-com.vivo.base.vtouch # 扫描
-com.vivo.basemanager # 手机存储
-com.vivo.browser # 浏览器
-com.vivo.car.networking # 智能车载
-com.vivo.card # 超级卡包
-com.vivo.carlauncher # 车载launcher
+# com.vivo.assistant # 重要通知
+# com.vivo.audiofx # 音效设置
+# com.vivo.base.agent # Jovi语音；可手动删除
+# com.vivo.base.gallery # 图像查看
+--user 0 com.vivo.base.player # 音频播放器(系统)
+# com.vivo.base.vtouch # 扫描
+--user 0 com.vivo.basemanager # 手机存储
+--user 0 com.vivo.browser # 浏览器
+# com.vivo.car.networking # 智能车载
+# com.vivo.card # 超级卡包
+# com.vivo.carlauncher # 车载launcher
 com.vivo.childrenmode # 儿童模式
-com.vivo.cipherchain # 密码保险箱
+# com.vivo.cipherchain # 密码保险箱
 com.vivo.compass # 指南针
-com.vivo.connbase # 多设备互联
-com.vivo.connbase.connectcenter # 多设备互联
-com.vivo.connbase.deviceaccessory # vivo快联
-com.vivo.connbase.sysui # ControlCenter
-com.vivo.cota # COTA
+# com.vivo.connbase # 多设备互联
+--user 0 com.vivo.connbase.connectcenter # 多设备互联
+--user 0 com.vivo.connbase.deviceaccessory # vivo快联
+--user 0 com.vivo.connbase.sysui # ControlCenter
+# com.vivo.cota # COTA
 com.vivo.countdownwidget # 计时器组件
-com.vivo.daemonService # vivo服务
-com.vivo.defaultPlayer # 视频播放器
+# com.vivo.daemonService # vivo服务
+--user 0 com.vivo.defaultPlayer # 视频播放器
 com.vivo.deformer # 原景视窗
 com.vivo.desktopstickers # 贴纸
 com.vivo.devicepower # 设备电量
-com.vivo.devicereg # 设备管理
-com.vivo.doubleinstance # 应用分身
+# com.vivo.devicereg # 设备管理
+# com.vivo.doubleinstance # 应用分身
 com.vivo.doubletimezoneclock # 时钟天气
-com.vivo.dr # vivo位置引擎
+--user 0 com.vivo.dr # vivo位置引擎
 com.vivo.dream.clock # 时钟（轻简约）
 com.vivo.dream.weather # 天气（轻简约）
 com.vivo.easyshare # 互传
-com.vivo.email # 电子邮件
-com.vivo.epm # EPM
-com.vivo.faceui # FaceUI
-com.vivo.faceunlock # 面部识别
-com.vivo.familycare.local # 健康使用设备
-com.vivo.favorite # 收藏
-com.vivo.fileobserver # 新增文件
-com.vivo.findphone # 查找
-com.vivo.fingerprint # 指纹与密码
-com.vivo.fingerprintui # 指纹UI
-com.vivo.fingerprintvit # 指纹Vit
-com.vivo.floatingball # 悬浮球
-com.vivo.fuelsummary # 电源信息
-com.vivo.fuzzylocationmanager # 模糊定位
-com.vivo.gallery # 相册
-com.vivo.game # 游戏中心
-com.vivo.gamecube # 游戏魔盒
-com.vivo.gamespace # vivo游戏空间
+# com.vivo.email # 电子邮件；可手动删除
+--user 0 com.vivo.epm # EPM；能量电源管理
+# com.vivo.faceui # FaceUI
+# com.vivo.faceunlock # 面部识别
+# com.vivo.familycare.local # 健康使用设备
+# com.vivo.favorite # 收藏
+--user 0 com.vivo.fileobserver # 新增文件
+# com.vivo.findphone # 查找
+# com.vivo.fingerprint # 指纹与密码
+--user 0 com.vivo.fingerprintui # 指纹UI
+--user 0 com.vivo.fingerprintvit # 指纹Vit
+# com.vivo.floatingball # 悬浮球
+--user 0 com.vivo.fuelsummary # 电源信息
+--user 0 com.vivo.fuzzylocationmanager # 模糊定位
+# com.vivo.gallery # 相册；可手动删除
+# com.vivo.game # 游戏中心；可手动删除
+# com.vivo.gamecube # 游戏魔盒
+--user 0 com.vivo.gamespace # vivo游戏空间
 com.vivo.gametrain # 听音辨位训练场
-com.vivo.gamewatch # GameWatch
-com.vivo.globalanimation # 全局动效
-com.vivo.globaldragdrop # 超级拖放
-com.vivo.globalsearch # 全局搜索
-com.vivo.health # vivo健康
-com.vivo.healthservice # 健康服务
+# com.vivo.gamewatch # GameWatch
+# com.vivo.globalanimation # 全局动效
+--user 0 com.vivo.globaldragdrop # 超级拖放
+# com.vivo.globalsearch # 全局搜索
+# com.vivo.health # vivo健康；可手动删除
+--user 0 com.vivo.healthservice # 健康服务
 com.vivo.healthwidget # 健康组件
-com.vivo.hiboard # 智慧桌面
-com.vivo.hover # 语音突显悬浮按钮
-com.vivo.hybrid # 快应用框架服务
-com.vivo.iotserver # IoT服务引擎
+# com.vivo.hiboard # 智慧桌面
+--user 0 com.vivo.hover # 语音突显悬浮按钮
+# com.vivo.hybrid # 快应用框架服务
+--user 0 com.vivo.iotserver # IoT服务引擎
 com.vivo.launchercopilot # 蓝心小V组件
 com.vivo.livewallpaper.parallelworld # 平行世界
-com.vivo.magazine # 阅图锁屏
-com.vivo.minscreen # 小屏
+# com.vivo.magazine # 阅图锁屏
+# com.vivo.minscreen # 小屏
 com.vivo.moodcube # 变形器
-com.vivo.motionrecognition # 智能体感
-com.vivo.multinlp # VivoLocationServices
-com.vivo.musicwidgetmix # 原子随身听
-com.vivo.networkimprove # NetworkImprove
-com.vivo.networkstate # NetworkState
-com.vivo.nps # vivo体验评价
-com.vivo.numbermark # 陌电识别
-com.vivo.pay # 多场景安全支付服务
-com.vivo.pcsuite # vivo办公套件
-com.vivo.pem # 电量守护
-com.vivo.permissionmanager # 权限管理
-com.vivo.phonehandoff # 通话接力
-com.vivo.pie # 功耗体验优化
-com.vivo.privacylauncher # 隐私桌面
+--user 0 com.vivo.motionrecognition # 智能体感
+--user 0 com.vivo.multinlp # VivoLocationServices
+# com.vivo.musicwidgetmix # 原子随身听
+--user 0 com.vivo.networkimprove # NetworkImprove
+--user 0 com.vivo.networkstate # NetworkState
+--user 0 com.vivo.nps # vivo体验评价
+# com.vivo.numbermark # 陌电识别
+# com.vivo.pay # 多场景安全支付服务
+# com.vivo.pcsuite # vivo办公套件
+# com.vivo.pem # 电量守护
+# com.vivo.permissionmanager # 权限管理
+--user 0 com.vivo.phonehandoff # 通话接力
+--user 0 com.vivo.pie # 功耗体验优化
+--user 0 com.vivo.privacylauncher # 隐私桌面
 com.vivo.puresearch # 桌面搜索
-com.vivo.pushservice # 推送引擎
-com.vivo.quickpay # 快捷支付
+# com.vivo.pushservice # 推送引擎
+# com.vivo.quickpay # 快捷支付
 com.vivo.remoteassistant # 远程协助
-com.vivo.safecenter # 安全中心
-com.vivo.screenagent # 小V帮记
-com.vivo.sdkplugin # vivo服务安全插件
-com.vivo.secime.service # 安全键盘
-com.vivo.setupwizard # 开机引导
-com.vivo.share # vivo互传
-com.vivo.sim.contacts # SIM卡联系人服务
-com.vivo.simpleiconthemeres # SimpleIconThemeRes
-com.vivo.singularity # vivo system webview
-com.vivo.smartLife # 智慧生活服务
-com.vivo.smartanswer # 电话秘书
-com.vivo.smartmultiwindow # 多任务
+# com.vivo.safecenter # 安全中心
+--user 0 com.vivo.screenagent # 小V帮记
+# com.vivo.sdkplugin # vivo服务安全插件
+--user 0 com.vivo.secime.service # 安全键盘
+# com.vivo.setupwizard # 开机引导
+--user 0 com.vivo.share # vivo互传
+--user 0 com.vivo.sim.contacts # SIM卡联系人服务
+--user 0 com.vivo.simpleiconthemeres # SimpleIconThemeRes
+--user 0 com.vivo.singularity # vivo system webview；vivo 定制 System WebView
+--user 0 com.vivo.smartLife # 智慧生活服务
+--user 0 com.vivo.smartanswer # 电话秘书
+# com.vivo.smartmultiwindow # 多任务
 com.vivo.smartoffice # vivo文档
-com.vivo.smartshot # 超级截屏
-com.vivo.smartunlock # 智能解锁
-com.vivo.sos # 紧急呼叫
+# --user 0 com.vivo.smartshot # 超级截屏；删除后失去任何截屏功能
+--user 0 com.vivo.smartunlock # 智能解锁
+# com.vivo.sos # 紧急呼叫
 com.vivo.space # vivo 官网
-com.vivo.sps # SuperProcessSystem
-com.vivo.systemuiplugin # 系统界面组件
-com.vivo.telephonyapp # 移动网络服务
+# com.vivo.sps # SuperProcessSystem
+# --user 0 com.vivo.systemuiplugin # 系统界面组件；删除会导致手机黑屏
+--user 0 com.vivo.telephonyapp # 移动网络服务
 com.vivo.timerwidget # 闹钟组件
-com.vivo.upnpserver # 投屏
-com.vivo.upslide # 交互池
-com.vivo.vdfs # 跨设备使用(mdfs)
-com.vivo.vhomeguide # VHome
-com.vivo.vibrator4d # vibrator4d
-com.vivo.video.floating # 视频通话美颜
-com.vivo.videoeditor # 视频编辑
-com.vivo.visionaid.builtin # 视觉辅助
-com.vivo.vivo3rdalgoservice # ImageAlgoService
+# com.vivo.upnpserver # 投屏
+# com.vivo.upslide # 交互池
+--user 0 com.vivo.vdfs # 跨设备使用(mdfs)
+--user 0 com.vivo.vhomeguide # VHome
+--user 0 com.vivo.vibrator4d # vibrator4d # 4D 振动服务应用，线性马达效果
+--user 0 com.vivo.video.floating # 视频通话美颜
+# com.vivo.videoeditor # 视频编辑
+--user 0 ccom.vivo.visionaid.builtin # 视觉辅助
+--user 0 com.vivo.vivo3rdalgoservice # ImageAlgoService
 com.vivo.vivokaraoke # 移动KTV
-com.vivo.vmdri # 连接中心
-com.vivo.vms # vivo移动服务
-com.vivo.voicerecognition # 声音识别
-com.vivo.voicewakeup # 语音唤醒
-com.vivo.vtouch # 扫描
-com.vivo.wallet # 钱包
+--user 0 com.vivo.vmdri # 连接中心
+# com.vivo.vms # vivo移动服务
+--user 0 com.vivo.voicerecognition # 声音识别
+# com.vivo.voicewakeup # 语音唤醒
+# com.vivo.vtouch # 扫描
+# com.vivo.wallet # 钱包；需要手动删除
 com.vivo.weather # 天气
-com.vivo.weather.provider # 天气存储
+# com.vivo.weather.provider # 天气存储
 com.vivo.widget.calendar # 日历组件
 com.vivo.widget.cleanspeed # 清理加速组件
 com.vivo.widget.gallery # 相册精选
 com.vivo.widget.healthcare # 健康关怀
 com.vivo.widget.timemanager # 屏幕使用时间组件
 com.vivo.widgetweather # 天气组件
-com.vivo.xspace # 原子隐私系统
-com.vlife.vivo.wallpaper # 动态锁屏服务
-com.vos.as.vit # 售后服务
-com.vos.user.vit # 工程菜单
-com.wapi.wapicertmanage # WAPI 证书管理
-org.codeaurora.ims # org.codeaurora.ims
-org.ifaa.aidl.manager # aidlserverdemo
-vendor.qti.hardware.cacert.server # CACertApp
-vendor.qti.iwlan # vendor.qti.iwlan
-vendor.qti.qesdk.sysservice # QesdkSysApp
+# com.vivo.xspace # 原子隐私系统
+--user 0 com.vlife.vivo.wallpaper # 动态锁屏服务
+--user 0 com.vos.as.vit # 售后服务
+--user 0 com.vos.user.vit # 工程菜单
+--user 0 com.wapi.wapicertmanage # WAPI 证书管理
+# org.codeaurora.ims # org.codeaurora.ims
+--user 0 org.ifaa.aidl.manager # aidlserverdemo；统一 Android 生物认证接口标准如指纹支付
+--user 0 vendor.qti.hardware.cacert.server # CACertApp；提供系统或硬件层的证书验证
+--user 0 vendor.qti.iwlan # vendor.qti.iwlan # 负责 Wi-Fi 通话和运营商 Wi-Fi 数据支持
+--user 0 vendor.qti.qesdk.sysservice # QesdkSysApp；为 Qualcomm 芯片上的系统或应用提供 底层硬件接口和扩展功能支持如音频增强，底层诊断与分析
 ```
