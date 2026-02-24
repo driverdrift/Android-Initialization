@@ -27,3 +27,34 @@ for pkg in $(pm list packages -3 | cut -d':' -f2 | grep -Ev '^(io\.github\.munta
 	pm uninstall "$pkg"
 done
 ```
+
+# system app
+```
+# white list
+WHITELIST=(
+	android
+	com.android.bluetooth
+	com.android.camera
+	com.android.networkstack
+	com.android.shell
+	com.vivo.smartshot
+	com.vivo.systemuiplugin
+)
+
+is_whitelisted() {
+	for w in "${WHITELIST[@]}"; do
+		[ "$w" = "$1" ] && return 0
+	done
+	return 1
+}
+
+pm list packages -s | cut -d':' -f2 | while read pkg; do
+	if is_whitelisted "$pkg"; then
+		echo "Skip (whitelisted): $pkg"
+	continue
+	fi
+
+	echo "Trying to uninstall: $pkg"
+	pm uninstall "$pkg" || pm uninstall --user 0 "$pkg"
+done
+```
