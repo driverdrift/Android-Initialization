@@ -79,53 +79,53 @@ com.android.mms # 信息
 com.android.mms.service # 信息
 com.android.modulemetadata # Module Metadata
 com.android.mtp # MTP 主机
-com.android.networkstack # 网络管理器
-com.android.networkstack.tethering.inprocess # Tethering
+--user 0 com.android.networkstack # 网络管理器；删除后会导致黑屏关机，无法开机
+--user 0 com.android.networkstack.tethering.inprocess # Tethering
 com.android.notes # 原子笔记
-com.android.ondevicepersonalization.services # com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication
-com.android.ons # com.android.ons
-com.android.packageinstaller # 软件包安装程序
-com.android.pacprocessor # PacProcessor
-com.android.permissioncontroller # 权限控制器
-com.android.phone # 电话
-com.android.phone.overlay.common # com.android.phone.overlay.common
-com.android.printspooler # 打印处理服务
-com.android.providers.blockednumber # 存储已屏蔽的号码
-com.android.providers.calendar # 日历存储
-com.android.providers.contacts # 联系人存储
-com.android.providers.downloads # 内容下载管理器
-com.android.providers.downloads.ui # 下载管理
-com.android.providers.media # com.android.providers.media
-com.android.providers.media.module # 媒体
-com.android.providers.settings # 设置存储
-com.android.providers.telephony # 电话和短信存储
-com.android.providers.userdictionary # 用户字典
-com.android.proxyhandler # ProxyHandler
-com.android.rkpdapp # RemoteProvisioner
-com.android.role.notes.enabled # Notes Role enabled
-com.android.safetycenter.resources # 安全中心资源
-com.android.sdksandbox # com.android.sdksandbox
-com.android.se # SecureElementApplication
-com.android.server.telecom # 通话管理
-com.android.server.telecom.overlay.common # com.android.server.telecom.overlay.common
-com.android.settings # 设置
-com.android.settings.overlay.common # com.android.settings.overlay.common
-com.android.sharedstoragebackup # com.android.sharedstoragebackup
-com.android.shell # Shell
-com.android.simappdialog # Sim App Dialog
-com.android.smspush # com.android.smspush
-com.android.soundpicker # 声音
-com.android.statementservice # Intent Filter Verification Service
+--user 0 com.android.ondevicepersonalization.services # com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication
+--user 0 com.android.ons # com.android.ons
+# com.android.packageinstaller # 软件包安装程序
+--user 0 com.android.pacprocessor # PacProcessor
+# com.android.permissioncontroller # 权限控制器
+# com.android.phone # 电话
+--user 0 com.android.phone.overlay.common # com.android.phone.overlay.common
+# com.android.printspooler # 打印处理服务
+--user 0 com.android.providers.blockednumber # 存储已屏蔽的号码
+# com.android.providers.calendar # 日历存储
+# com.android.providers.contacts # 联系人存储
+# com.android.providers.downloads # 内容下载管理器
+# com.android.providers.downloads.ui # 下载管理
+--user 0 com.android.providers.media # com.android.providers.media
+--user 0 com.android.providers.media.module # 媒体
+# com.android.providers.settings # 设置存储
+# com.android.providers.telephony # 电话和短信存储
+--user 0 com.android.providers.userdictionary # 用户字典
+--user 0 com.android.proxyhandler # ProxyHandler
+--user 0 com.android.rkpdapp # RemoteProvisioner
+--user 0 com.android.role.notes.enabled # Notes Role enabled
+--user 0 com.android.safetycenter.resources # 安全中心资源
+--user 0 com.android.sdksandbox # com.android.sdksandbox
+--user 0 com.android.se # SecureElementApplication
+# com.android.server.telecom # 通话管理
+--user 0 com.android.server.telecom.overlay.common # com.android.server.telecom.overlay.common
+# com.android.settings # 设置
+--user 0 com.android.settings.overlay.common # com.android.settings.overlay.common
+--user 0 com.android.sharedstoragebackup # com.android.sharedstoragebackup
+# --user 0 com.android.shell # Shell；删除后无法在 adb 执行 pm uninstall 和 pm install 命令，那如果手动卸载后，装入一个带 su 命令的 shell 会怎样？
+--user 0 com.android.simappdialog # Sim App Dialog
+--user 0 com.android.smspush # com.android.smspush
+--user 0 com.android.soundpicker # 声音
+--user 0 com.android.statementservice # Intent Filter Verification Service
 com.android.stk # SIM卡应用
-com.android.storagemanager # 存储空间管理器
-com.android.systemui # 系统界面
-com.android.systemui.overlay.common # com.android.systemui.overlay.common
-com.android.systemui.plugin.globalactions.wallet # com.android.systemui.plugin.globalactions.wallet
-com.android.theme.font.notoserifsource # Noto Serif / Source Sans Pro
-com.android.traceur # 系统跟踪
-com.android.uwb.resources # System UWB Resources
-com.android.vending # Google Play Services Updater
-com.android.vendors.bridge.softsim # com.android.vendors.bridge.softsim
+--user 0 com.android.storagemanager # 存储空间管理器
+# com.android.systemui # 系统界面
+--user 0 com.android.systemui.overlay.common # com.android.systemui.overlay.common
+--user 0 com.android.systemui.plugin.globalactions.wallet # com.android.systemui.plugin.globalactions.wallet
+--user 0 com.android.theme.font.notoserifsource # Noto Serif / Source Sans Pro
+--user 0 com.android.traceur # 系统跟踪
+--user 0 com.android.uwb.resources # System UWB Resources
+--user 0 com.android.vending # Google Play Services Updater
+--user 0 com.android.vendors.bridge.softsim # com.android.vendors.bridge.softsim
 --user 0 com.android.virtualmachine.res # com.android.virtualmachine.res
 --user 0 com.android.vivo.tws.vivotws # vivo TWS
 --user 0 com.android.vpndialogs # VpnDialogs
