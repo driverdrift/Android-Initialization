@@ -1,4 +1,4 @@
-# pm list packages -3
+# pm list packages -3 | wc -l
 29
 ```
 com.baidu.carlife.vivo # 智能车载百度CarLife+组件
