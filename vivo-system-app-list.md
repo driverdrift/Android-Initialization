@@ -32,54 +32,54 @@ com.android.bbksoundrecorder # 录音机
 --user 0 com.android.cameraextensions # CameraExtensionsProxy；提供相机扩展功能接口给第三方或系统相机应用从而使用高级功能如夜景模式
 --user 0 com.android.captiveportallogin # 登录WLAN网络；处理需要网页验证的 Wi-Fi 网络，弹出登陆页面
 # com.android.carrierconfig # com.android.carrierconfig；根据移动运营商提供的配置调整系统行为
-# com.android.carrierconfig.overlay.common # com.android.carrierconfig.overlay.common；覆盖 com.android.carrierconfig 默认资源和配置
-# com.android.carrierdefaultapp # 运营商通知
+--user 0 com.android.carrierconfig.overlay.common # com.android.carrierconfig.overlay.common；覆盖 com.android.carrierconfig 默认资源和配置
+--user 0 com.android.carrierdefaultapp # 运营商通知
 # com.android.cellbroadcastreceiver # 无线紧急警报
-# com.android.cellbroadcastreceiver.overlay.common # com.android.cellbroadcastreceiver.overlay.common
-# com.android.cellbroadcastservice # Cell Broadcast Service
-# com.android.certinstaller # 证书安装程序
-# com.android.companiondevicemanager # 配套设备管理器
-# com.android.connectivity.resources # 系统网络连接资源
+--user 0 com.android.cellbroadcastreceiver.overlay.common # com.android.cellbroadcastreceiver.overlay.common
+--user 0 com.android.cellbroadcastservice # Cell Broadcast Service
+--user 0 com.android.certinstaller # 证书安装程序
+--user 0 com.android.companiondevicemanager # 配套设备管理器
+--user 0 com.android.connectivity.resources # 系统网络连接资源
 # com.android.contacts # 电话与联系人
-# com.android.credentialmanager # Credential Manager
-# com.android.cts.ctsshim # com.android.cts.ctsshim
-# com.android.cts.priv.ctsshim # com.android.cts.priv.ctsshim
+--user 0 com.android.credentialmanager # Credential Manager
+--user 0 com.android.cts.ctsshim # com.android.cts.ctsshim
+--user 0 com.android.cts.priv.ctsshim # com.android.cts.priv.ctsshim
 # com.android.devicelockcontroller # DeviceLockController
-# com.android.documentsui # com.android.documentsui
-# com.android.dynsystem # Dynamic System Updates
-# com.android.egg # Android Easter Egg
-# com.android.emergency # 急救信息
-# com.android.ext.adservices.api # Android 系统；扩展广告服务模块
-# com.android.externalstorage # 外部存储设备
-# com.android.federatedcompute.services # com.android.federatedcompute.services
+--user 0 com.android.documentsui # com.android.documentsui
+--user 0 com.android.dynsystem # Dynamic System Updates
+--user 0 com.android.egg # Android Easter Egg
+--user 0 com.android.emergency # 急救信息
+--user 0 com.android.ext.adservices.api # Android 系统；扩展广告服务模块
+--user 0 com.android.externalstorage # 外部存储设备
+--user 0 com.android.federatedcompute.services # com.android.federatedcompute.services
 # com.android.filemanager # 文件管理
-# com.android.health.connect.backuprestore # com.android.health.connect.backuprestore
-# com.android.healthconnect.controller # Health Connect
-# com.android.hotspot2.osulogin # OsuLogin
-# com.android.htmlviewer # HTML 查看程序
-com.android.incallui # 电话管理
-com.android.inputdevices # 输入设备
-com.android.intentresolver # 分享
-com.android.internal.display.cutout.emulation.corner # 边角刘海屏
-com.android.internal.display.cutout.emulation.double # 双刘海屏
-com.android.internal.display.cutout.emulation.hole # 打孔屏
-com.android.internal.display.cutout.emulation.tall # 长型刘海屏
-com.android.internal.display.cutout.emulation.waterfall # 瀑布刘海屏
-com.android.internal.systemui.navbar.gestural # Gestural Navigation Bar
-com.android.internal.systemui.navbar.gestural_extra_wide_back # Gestural Navigation Bar
-com.android.internal.systemui.navbar.gestural_narrow_back # Gestural Navigation Bar
-com.android.internal.systemui.navbar.gestural_wide_back # Gestural Navigation Bar
-com.android.internal.systemui.navbar.threebutton # 3 Button Navigation Bar
-com.android.internal.systemui.navbar.transparent # Transparent navigation bar
-com.android.keychain # 密钥链
-com.android.localtransport # com.android.localtransport
-com.android.location.fused # 一体化位置信息
-com.android.managedprovisioning # 工作设置
-com.android.mms # 信息
-com.android.mms.service # 信息
-com.android.modulemetadata # Module Metadata
-com.android.mtp # MTP 主机
---user 0 com.android.networkstack # 网络管理器；删除后会导致黑屏关机，无法开机
+--user 0 com.android.health.connect.backuprestore # com.android.health.connect.backuprestore
+--user 0 com.android.healthconnect.controller # Health Connect
+--user 0 com.android.hotspot2.osulogin # OsuLogin
+--user 0 com.android.htmlviewer # HTML 查看程序
+# com.android.incallui # 电话管理
+--user 0 com.android.inputdevices # 输入设备
+--user 0 com.android.intentresolver # 分享
+--user 0 com.android.internal.display.cutout.emulation.corner # 边角刘海屏
+--user 0 com.android.internal.display.cutout.emulation.double # 双刘海屏
+--user 0 com.android.internal.display.cutout.emulation.hole # 打孔屏
+--user 0 com.android.internal.display.cutout.emulation.tall # 长型刘海屏
+--user 0 com.android.internal.display.cutout.emulation.waterfall # 瀑布刘海屏
+--user 0 com.android.internal.systemui.navbar.gestural # Gestural Navigation Bar
+--user 0 com.android.internal.systemui.navbar.gestural_extra_wide_back # Gestural Navigation Bar
+--user 0 com.android.internal.systemui.navbar.gestural_narrow_back # Gestural Navigation Bar
+--user 0 com.android.internal.systemui.navbar.gestural_wide_back # Gestural Navigation Bar
+--user 0 com.android.internal.systemui.navbar.threebutton # 3 Button Navigation Bar
+--user 0 com.android.internal.systemui.navbar.transparent # Transparent navigation bar
+--user 0 com.android.keychain # 密钥链
+--user 0 com.android.localtransport # com.android.localtransport
+# com.android.location.fused # 一体化位置信息
+--user 0 com.android.managedprovisioning # 工作设置
+# com.android.mms # 信息
+# com.android.mms.service # 信息
+--user 0 com.android.modulemetadata # Module Metadata
+--user 0 com.android.mtp # MTP 主机
+# --user 0 com.android.networkstack # 网络管理器；删除后会导致黑屏关机，无法开机
 --user 0 com.android.networkstack.tethering.inprocess # Tethering
 com.android.notes # 原子笔记
 --user 0 com.android.ondevicepersonalization.services # com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication
