@@ -69,7 +69,7 @@ com.android.bbksoundrecorder # 录音机
 --user 0 com.android.federatedcompute.services # com.android.federatedcompute.services
 # com.android.filemanager # 文件管理
 --user 0 com.android.health.connect.backuprestore # com.android.health.connect.backuprestore
---user 0 com.android.healthconnect.controller # Health Connect
+--user 0 com.android.healthconnect.controller # Health Connect
 --user 0 com.android.hotspot2.osulogin # OsuLogin
 --user 0 com.android.htmlviewer # HTML 查看程序
 # com.android.incallui # 电话管理
@@ -388,7 +388,7 @@ com.vivo.widgetweather # 天气组件
 --user 0 com.vlife.vivo.wallpaper # 动态锁屏服务
 --user 0 com.vos.as.vit # 售后服务
 --user 0 com.vos.user.vit # 工程菜单
---user 0 com.wapi.wapicertmanage # WAPI 证书管理
+--user 0 com.wapi.wapicertmanage # WAPI 证书管理
 # org.codeaurora.ims # org.codeaurora.ims
 --user 0 org.ifaa.aidl.manager # aidlserverdemo；统一 Android 生物认证接口标准如指纹支付
 --user 0 vendor.qti.hardware.cacert.server # CACertApp；提供系统或硬件层的证书验证
