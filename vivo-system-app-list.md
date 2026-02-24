@@ -5,7 +5,7 @@ pm list packages -s | sort | cut -d':' -f2
 ```
 
 ```
-# android # Android 系统
+# --user 0 android # Android 系统；删除后系统会重启，重启后会自动重新安装该包
 --user 0 android.ext.services # Android Services Library；提供一些可独立更新的系统扩展服务
 --user 0 android.overlay.common # android.overlay.common；系统资源覆盖包
 --user 0 android.overlay.target # android.overlay.target；系统资源覆盖（RRO）目标包
