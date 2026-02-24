@@ -111,7 +111,7 @@ com.android.notes # 原子笔记
 # com.android.providers.downloads # 内容下载管理器
 # com.android.providers.downloads.ui # 下载管理
 --user 0 com.android.providers.media # com.android.providers.media
---user 0 com.android.providers.media.module # 媒体
+# --user 0 com.android.providers.media.module # 媒体；删除后文件管理中可用存储空间会变为 0，误删除后需要重新安装并重启设备后生效
 # com.android.providers.settings # 设置存储
 # com.android.providers.telephony # 电话和短信存储
 --user 0 com.android.providers.userdictionary # 用户字典
