@@ -3,6 +3,20 @@
 ```
 pm list packages -s | sort | cut -d':' -f2
 ```
+Packages that support manual uninstallation but are restricted via ADB.
+```
+# com.android.BBKClock # 闹钟时钟；可手动卸载
+# com.android.bbkmusic # i 音乐；可手动卸载
+# com.bbk.theme # i 主题；可手动删除
+# com.iqoo.secure # i 管家；可以手动删除
+# com.vivo.agent # Jovi语音；可手动删除
+# com.vivo.email # 电子邮件；可手动删除
+# com.vivo.gallery # 相册；可手动删除；但不必要删除
+# com.vivo.game # 游戏中心；可手动删除
+# com.vivo.health # vivo健康；可手动删除
+# com.vivo.vtouch # 扫描；可手动卸载
+# com.vivo.wallet # 钱包；需要手动删除
+```
 
 ```
 # --user 0 android # Android 系统；删除后系统会重启，重启后会自动重新安装该包
@@ -241,7 +255,7 @@ com.vivo.alldocuments # vivo万能查看器
 com.vivo.are # 精彩推荐
 # com.vivo.assistant # 重要通知
 # com.vivo.audiofx # 音效设置
-# com.vivo.base.agent # Jovi语音；可手动删除
+# com.vivo.base.agent # Jovi语音
 # com.vivo.base.gallery # 图像查看
 --user 0 com.vivo.base.player # 音频播放器(系统)
 # com.vivo.base.vtouch # 扫描
@@ -285,7 +299,7 @@ com.vivo.easyshare # 互传
 # com.vivo.floatingball # 悬浮球
 --user 0 com.vivo.fuelsummary # 电源信息
 --user 0 com.vivo.fuzzylocationmanager # 模糊定位
-# com.vivo.gallery # 相册；可手动删除
+# com.vivo.gallery # 相册；可手动删除；但不必要删除
 # com.vivo.game # 游戏中心；可手动删除
 # com.vivo.gamecube # 游戏魔盒
 --user 0 com.vivo.gamespace # vivo游戏空间
@@ -359,7 +373,7 @@ com.vivo.vivokaraoke # 移动KTV
 # com.vivo.vms # vivo移动服务
 --user 0 com.vivo.voicerecognition # 声音识别
 # com.vivo.voicewakeup # 语音唤醒
-# com.vivo.vtouch # 扫描
+# com.vivo.vtouch # 扫描；可手动卸载
 # com.vivo.wallet # 钱包；需要手动删除
 com.vivo.weather # 天气
 # com.vivo.weather.provider # 天气存储
