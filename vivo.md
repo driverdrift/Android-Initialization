@@ -40,6 +40,7 @@ WHITELIST=(
 	com.vivo.smartshot
 	com.vivo.systemuiplugin
 	com.android.providers.media.module
+	com.google.android.webview
 )
 
 is_whitelisted() {
