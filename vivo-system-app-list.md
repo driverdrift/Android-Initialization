@@ -79,7 +79,7 @@ com.android.bbksoundrecorder # 录音机
 # com.android.mms.service # 信息
 --user 0 com.android.modulemetadata # Module Metadata
 --user 0 com.android.mtp # MTP 主机
-# --user 0 com.android.networkstack # 网络管理器；删除后会导致黑屏关机，无法开机；但是有时候重启后又可以正常开机，此时包变成 com.android.networkstack.tethering.inprocess。
+# --user 0 com.android.networkstack # 网络管理器；删除后会导致黑屏关机，无法开机；但是有时候重启后又可以正常开机，此时包变成 com.android.networkstack.tethering.inprocess，并且无法连接 wifi 或者数据流量。
 --user 0 com.android.networkstack.tethering.inprocess # Tethering
 com.android.notes # 原子笔记
 --user 0 com.android.ondevicepersonalization.services # com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication
