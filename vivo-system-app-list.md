@@ -6,12 +6,12 @@ pm list packages -s | sort | cut -d':' -f2
 
 ```
 # android # Android 系统
-android.ext.services # Android Services Library
-android.overlay.common # android.overlay.common
-android.overlay.target # android.overlay.target
-android.overlay.vivoresrro # android.overlay.vivoresrro
-android.overlay.vrro # android.overlay.vrro
-android.qvaoverlay.common # android.qvaoverlay.common
+--user 0 android.ext.services # Android Services Library
+--user 0 android.overlay.common # android.overlay.common
+--user 0 android.overlay.target # android.overlay.target
+--user 0 android.overlay.vivoresrro # android.overlay.vivoresrro
+--user 0 android.overlay.vrro # android.overlay.vrro
+--user 0 android.qvaoverlay.common # android.qvaoverlay.common
 com.amap.android.location # 网络位置
 com.android.BBKClock # 闹钟时钟
 com.android.BBKCrontab # 定时任务
