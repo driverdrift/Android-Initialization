@@ -21,7 +21,7 @@ com.android.VideoPlayer # i 视频
 com.android.bbk.lockscreen3 # 一键锁屏
 com.android.bbkcalculator # 计算器
 --user 0 com.android.bbklog # 日志信息采集
-# com.android.bbkmusic # i 音乐
+# com.android.bbkmusic # i 音乐；可手动卸载
 com.android.bbksoundrecorder # 录音机
 # com.android.bips # 打印
 # --user 0 com.android.bluetooth # 蓝牙
