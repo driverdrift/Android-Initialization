@@ -3,7 +3,8 @@
 ```
 pm list packages -s | sort | cut -d':' -f2
 ```
-Packages that support manual uninstallation but are restricted via ADB.
+Packages that support manual uninstallation but are restricted via ADB.  
+11 - 1 = 10
 ```
 # com.android.BBKClock # 闹钟时钟；可手动卸载
 # com.android.bbkmusic # i 音乐；可手动卸载
