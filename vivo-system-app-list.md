@@ -6,7 +6,7 @@ pm list packages -s | sort | cut -d':' -f2
 Packages that support manual uninstallation but are restricted via ADB.  
 11 - 1 = 10
 ```
-# com.android.BBKClock # 闹钟时钟；可手动卸载
+# com.android.BBKClock # 闹钟时钟；可手动卸载；但不必要删除
 # com.android.bbkmusic # i 音乐；可手动卸载
 # com.bbk.theme # i 主题；可手动删除
 # com.iqoo.secure # i 管家；可以手动删除
@@ -28,7 +28,7 @@ Packages that support manual uninstallation but are restricted via ADB.
 --user 0 android.overlay.vrro # android.overlay.vrro
 --user 0 android.qvaoverlay.common # android.qvaoverlay.common；厂商提供的系统资源覆盖包
 --user 0 com.amap.android.location # 网络位置
-# com.android.BBKClock # 闹钟时钟；可手动卸载
+# com.android.BBKClock # 闹钟时钟；可手动卸载；但不必要删除
 # com.android.BBKCrontab # 定时任务
 com.android.VideoPlayer # i 视频
 --user 0 com.android.adservices.api # Android 系统；广告服务
