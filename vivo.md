@@ -1,7 +1,7 @@
 ```
 adb shell pm uninstall --user 0 com.vivo.browser # 浏览器
-adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
-adb shell pm uninstall --user 0 com.baidu.input_vivo # 百度输入法定制版
+# adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
+# adb shell pm uninstall --user 0 com.baidu.input_vivo # 百度输入法定制版
 ```
 # Configure keyboard
 ```
