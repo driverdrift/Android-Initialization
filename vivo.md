@@ -28,7 +28,7 @@ for pkg in $(pm list packages -3 | cut -d':' -f2 | grep -Ev '^(io\.github\.munta
 done
 ```
 
-# system app
+# system app（会导致收不到短信和热点，因此白名单法不可靠）
 ```
 # white list
 WHITELIST=(
