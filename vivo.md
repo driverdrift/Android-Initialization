@@ -1,5 +1,6 @@
+但是为了防止卸载系统组件后内存泄漏，蠢人的逻辑，因此不适用 adb 卸载任何软件。
 ```
-adb shell pm uninstall --user 0 com.vivo.browser # 浏览器
+# adb shell pm uninstall --user 0 com.vivo.browser # 浏览器
 # adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
 # adb shell pm uninstall --user 0 com.baidu.input_vivo # 百度输入法定制版
 ```
