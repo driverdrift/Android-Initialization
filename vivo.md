@@ -35,6 +35,12 @@ done
 ```
 
 # system app（会导致收不到短信和热点，因此白名单法不可靠）
+可安全删除的，防止误删导致系统出现内存泄漏
+```
+--user 0 com.baidu.input_vivo # 百度输入法定制版
+--user 0 com.sohu.inputmethod.sogou.vivo # 搜狗输入法定制版
+--user 0 com.vivo.browser # 浏览器
+```
 ```
 # white list
 WHITELIST=(
