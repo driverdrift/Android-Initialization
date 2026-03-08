@@ -135,7 +135,7 @@ com.huawei.dsdscardmanager
 com.huawei.easygo
 com.huawei.educenter # 华为教育中心
 com.huawei.email # 电子邮件
-com.huawei.fastapp # 块应用中心
+com.huawei.fastapp # 快应用中心
 com.huawei.featurelayer.featureframework
 com.huawei.featurelayer.sharedfeature.map
 com.huawei.fido.uafclient
