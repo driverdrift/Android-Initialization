@@ -24,7 +24,6 @@ com.ximalaya.ting.android # 喜马拉雅
 com.xingin.xhs # 小红书
 com.youku.phone # 优酷视频
 com.zhihu.android # 知乎
-io.github.muntashirakon.AppManager # 
 me.ele # 饿了么
 tv.danmaku.bili # 哔哩哔哩
 ```
