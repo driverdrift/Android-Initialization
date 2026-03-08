@@ -66,6 +66,6 @@ pm uninstall com.huawei.browser.fa # 浏览器
 pm uninstall --user 0 com.huawei.wallet.facard # 钱包
 pm uninstall com.huawei.ohos.health # 运动健康
 pm uninstall --user 0 com.huawei.gameassistant # 应用助手
-pm uninstall com.baidu.input_huawei # 百度输入法华为版
+pm uninstall --user 0 com.baidu.input_huawei # 百度输入法华为版
 pm uninstall --user 0 com.huawei.fastapp # 快应用中心
 ```
