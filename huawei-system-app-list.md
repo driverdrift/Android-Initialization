@@ -74,7 +74,7 @@ com.android.wallpaper.livepicker
 com.android.wallpaperbackup
 com.android.wallpapercropper
 com.android.wifi.resources
-com.baidu.input_huawei
+com.baidu.input_huawei # 百度输入法华为版
 com.bjbyhd.screenreader_huawei
 com.hicloud.android.clone
 com.huawei.HwMultiScreenShot
@@ -87,16 +87,16 @@ com.huawei.android.chr
 com.huawei.android.findmyphone
 com.huawei.android.hsf
 com.huawei.android.hwaps
-com.huawei.android.hwouc
+com.huawei.android.hwouc # 软件更新
 com.huawei.android.instantonline
 com.huawei.android.instantshare
 com.huawei.android.internal.app
 com.huawei.android.launcher
 com.huawei.android.projectmenu
 com.huawei.android.pushagent
-com.huawei.android.thememanager
-com.huawei.android.tips
-com.huawei.android.totemweather
+com.huawei.android.thememanager # 主题
+com.huawei.android.tips # 玩机技巧
+com.huawei.android.totemweather # 天气
 com.huawei.android.wfdft
 com.huawei.aod
 com.huawei.appmarket
@@ -107,11 +107,11 @@ com.huawei.audioaccessorymanager
 com.huawei.behaviorauth
 com.huawei.bluetooth
 com.huawei.bonevoiceui
-com.huawei.browser
-com.huawei.browser.fa
+com.huawei.browser # 浏览器
+com.huawei.browser.fa # 浏览器
 com.huawei.ca
-com.huawei.calculator
-com.huawei.calendar
+com.huawei.calculator # 计算器
+com.huawei.calendar # 日历
 com.huawei.camera
 com.huawei.camerakit.impl
 com.huawei.coauthservice
@@ -133,19 +133,19 @@ com.huawei.distributedpasteboard
 com.huawei.dmsdp
 com.huawei.dsdscardmanager
 com.huawei.easygo
-com.huawei.educenter
-com.huawei.email
-com.huawei.fastapp
+com.huawei.educenter # 华为教育中心
+com.huawei.email # 电子邮件
+com.huawei.fastapp # 块应用中心
 com.huawei.featurelayer.featureframework
 com.huawei.featurelayer.sharedfeature.map
 com.huawei.fido.uafclient
 com.huawei.filemanager
 com.huawei.game.kitserver
-com.huawei.gameassistant
-com.huawei.gamebox
+com.huawei.gameassistant # 应用助手
+com.huawei.gamebox # 游戏中心
 com.huawei.harmonyos.foundation
 com.huawei.hbm
-com.huawei.health
+com.huawei.health # 运动健康
 com.huawei.hff
 com.huawei.hiaction
 com.huawei.hiai
@@ -155,10 +155,10 @@ com.huawei.hicloud
 com.huawei.hidisk
 com.huawei.hifolder
 com.huawei.hilink.framework
-com.huawei.himovie
+com.huawei.himovie # 华为视频
 com.huawei.himovie.partner1
 com.huawei.himovie.partner2
-com.huawei.hiskytone
+com.huawei.hiskytone # 天际通
 com.huawei.hitouch
 com.huawei.hiview
 com.huawei.hiviewtunnel
@@ -170,7 +170,7 @@ com.huawei.hwdetectrepair
 com.huawei.hwdiagnosis
 com.huawei.hwdockbar
 com.huawei.hwid
-com.huawei.hwireader
+com.huawei.hwireader # 阅读
 com.huawei.hwpanpayservice
 com.huawei.hwstartupguide
 com.huawei.hwvoipservice
@@ -196,12 +196,12 @@ com.huawei.music
 com.huawei.mycenter
 com.huawei.nb.service
 com.huawei.nearby
-com.huawei.notepad
+com.huawei.notepad # 备忘录
 com.huawei.numberidentity
 com.huawei.ohos.camera
 com.huawei.ohos.famanager
 com.huawei.ohos.health
-com.huawei.ohos.inputmethod
+com.huawei.ohos.inputmethod # 小艺输入法
 com.huawei.ohos.photos
 com.huawei.ohos.search
 com.huawei.ohos.smarthome
@@ -212,7 +212,7 @@ com.huawei.parentcontrol
 com.huawei.pcassistant
 com.huawei.pengine
 com.huawei.phone.recorder
-com.huawei.phoneservice
+com.huawei.phoneservice # 我的华为
 com.huawei.photos
 com.huawei.powergenie
 com.huawei.printservice
