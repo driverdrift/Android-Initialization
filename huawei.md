@@ -15,7 +15,7 @@ pm uninstall com.huawei.hwireader # 阅读
 pm uninstall --user 0 com.huawei.android.thememanager # 主题
 pm uninstall --user 0 com.huawei.wallet # 华为钱包
 pm uninstall com.vmall.client # 华为商城
-pm uninstall --user 0 com.huawei.appmarket # 华为应用市场
+# pm uninstall --user 0 com.huawei.appmarket # 华为应用市场
 pm uninstall com.huawei.meetime # 畅连
 pm uninstall com.huawei.gamebox # 游戏中心
 pm uninstall com.huawei.educenter # 华为教育中心
