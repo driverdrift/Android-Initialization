@@ -1,3 +1,11 @@
+# Configure keyboard
+```
+adb install "C:\My Data\Software Repository\Android\_com.google.android.inputmethod.latin_10.4.04.361808908-lite_release-arm64-v8a-52619238_minAPI27(arm64-v8a)(nodpi)_apkmirror.com.apk"
+
+adb install "C:\My Data\Software Repository\Android\com.android.chrome_83.0.4103.106-410410673_minAPI24(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk"
+```
+Enable Gboard and set as default keyboard.
+close safe input option
 # third-party app
 ```
 for pkg in $(pm list packages -3 | cut -d':' -f2 | grep -Ev '^(io\.github\.muntashirakon\.AppManager|com\.google\.android\.inputmethod\.latin)'); do
@@ -58,6 +66,6 @@ pm uninstall com.huawei.browser.fa # 浏览器
 pm uninstall --user 0 com.huawei.wallet.facard # 钱包
 pm uninstall com.huawei.ohos.health # 运动健康
 pm uninstall --user 0 com.huawei.gameassistant # 应用助手
-# pm uninstall com.baidu.input_huawei # 百度输入法华为版
+pm uninstall com.baidu.input_huawei # 百度输入法华为版
 pm uninstall --user 0 com.huawei.fastapp # 快应用中心
 ```
