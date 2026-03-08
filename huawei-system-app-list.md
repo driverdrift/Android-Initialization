@@ -49,8 +49,8 @@ com.android.phone
 com.android.printservice.recommendation
 com.android.printspooler
 com.android.providers.blockednumber
-com.android.providers.calendar
-com.android.providers.contacts
+com.android.providers.calendar # 日历
+com.android.providers.contacts # 联系人
 com.android.providers.downloads
 com.android.providers.media
 com.android.providers.media.module
@@ -65,8 +65,8 @@ com.android.sharedstoragebackup
 com.android.shell
 com.android.simappdialog
 com.android.statementservice
-com.android.stk
-com.android.storagemanager
+com.android.stk # SIM 卡应用
+com.android.storagemanager # 手机管家
 com.android.systemui
 com.android.systemui.overlay
 com.android.vpndialogs
@@ -76,7 +76,7 @@ com.android.wallpapercropper
 com.android.wifi.resources
 com.baidu.input_huawei # 百度输入法华为版
 com.bjbyhd.screenreader_huawei
-com.hicloud.android.clone
+com.hicloud.android.clone # 手机克隆
 com.huawei.HwMultiScreenShot
 com.huawei.airlink
 com.huawei.android.AutoRegSms
@@ -84,7 +84,7 @@ com.huawei.android.FloatTasks
 com.huawei.android.UEInfoCheck
 com.huawei.android.airsharing
 com.huawei.android.chr
-com.huawei.android.findmyphone
+com.huawei.android.findmyphone # 查找设备
 com.huawei.android.hsf
 com.huawei.android.hwaps
 com.huawei.android.hwouc # 软件更新
@@ -98,8 +98,8 @@ com.huawei.android.thememanager # 主题
 com.huawei.android.tips # 玩机技巧
 com.huawei.android.totemweather # 天气
 com.huawei.android.wfdft
-com.huawei.aod
-com.huawei.appmarket
+com.huawei.aod # 熄屏显示
+com.huawei.appmarket # 华为应用市场
 com.huawei.arengine.service
 com.huawei.assetsync
 com.huawei.assetsyncservice
@@ -115,7 +115,7 @@ com.huawei.calendar # 日历
 com.huawei.camera
 com.huawei.camerakit.impl
 com.huawei.coauthservice
-com.huawei.compass
+com.huawei.compass # 指南针
 com.huawei.contacts
 com.huawei.contacts.sync
 com.huawei.contactscamcard
@@ -152,8 +152,8 @@ com.huawei.hiai
 com.huawei.hicar
 com.huawei.hicard
 com.huawei.hicloud
-com.huawei.hidisk
-com.huawei.hifolder
+com.huawei.hidisk # 云空间
+com.huawei.hifolder # 精品推荐
 com.huawei.hilink.framework
 com.huawei.himovie # 华为视频
 com.huawei.himovie.partner1
@@ -177,35 +177,35 @@ com.huawei.hwvoipservice
 com.huawei.iaware
 com.huawei.iconnect
 com.huawei.imedia.sws
-com.huawei.intelligent
+com.huawei.intelligent # 智慧助手
 com.huawei.languagedownloader
 com.huawei.lbs
-com.huawei.lives
-com.huawei.livewallpaper.paradise
+com.huawei.lives # 生活服务
+com.huawei.livewallpaper.paradise # 超级壁纸
 com.huawei.localBackup
-com.huawei.magazine
+com.huawei.magazine # 杂志锁屏
 com.huawei.mediacontroller
-com.huawei.meetime
-com.huawei.mirror
+com.huawei.meetime # 畅连
+com.huawei.mirror # 镜子
 com.huawei.mmitest
 com.huawei.motionservice
 com.huawei.msdp
 com.huawei.multimedia.audioengine
 com.huawei.multimedia.hivideoplayengine
-com.huawei.music
-com.huawei.mycenter
+com.huawei.music # 音乐
+com.huawei.mycenter # 会员中心
 com.huawei.nb.service
 com.huawei.nearby
 com.huawei.notepad # 备忘录
 com.huawei.numberidentity
 com.huawei.ohos.camera
 com.huawei.ohos.famanager
-com.huawei.ohos.health
+com.huawei.ohos.health # 运动健康
 com.huawei.ohos.inputmethod # 小艺输入法
 com.huawei.ohos.photos
-com.huawei.ohos.search
-com.huawei.ohos.smarthome
-com.huawei.ohos.suggestion
+com.huawei.ohos.search # 全局搜索数据服务
+com.huawei.ohos.smarthome # 智慧生活
+com.huawei.ohos.suggestion # 小艺建议
 com.huawei.onehopsvcclient
 com.huawei.onehopsvchost
 com.huawei.parentcontrol
@@ -225,7 +225,7 @@ com.huawei.remotepassword
 com.huawei.scanner
 com.huawei.scenepack
 com.huawei.screenrecorder
-com.huawei.search
+com.huawei.search # 智慧搜索
 com.huawei.searchservice
 com.huawei.secime
 com.huawei.securitymgr
@@ -234,7 +234,7 @@ com.huawei.securityserver
 com.huawei.skytone
 com.huawei.smarthome
 com.huawei.smartshot
-com.huawei.soundrecorder
+com.huawei.soundrecorder # 录音机
 com.huawei.spaceservice
 com.huawei.suggestion
 com.huawei.synergy
@@ -245,16 +245,16 @@ com.huawei.trustagent
 com.huawei.trustcircle
 com.huawei.trustedthingsauth
 com.huawei.trustspace
-com.huawei.vassistant
-com.huawei.videoeditor
-com.huawei.wallet
-com.huawei.wallet.facard
+com.huawei.vassistant # 智慧语音
+com.huawei.videoeditor # 花瓣剪辑
+com.huawei.wallet # 华为钱包
+com.huawei.wallet.facard # 钱包
 com.huawei.wallet.sdk.walletsdk
 com.huawei.waudio
 com.huawei.webview
 com.huawei.wifiprobqeservice
 com.iflytek.speechsuite
-com.petal.litegames
+com.petal.litegames # 花瓣轻游
 com.qualcomm.location
 com.qualcomm.qcrilmsgtunnel
 com.qualcomm.qti.cne
@@ -264,7 +264,7 @@ com.qualcomm.qti.telephonyservice
 com.sohu.sohuvideo.emplayer
 com.tencent.qqlivehuawei
 com.unionpay.tsmservice
-com.vmall.client
+com.vmall.client # 华为商城
 ohos.media.medialibrary
 org.codeaurora.ims
 vendor.qti.hardware.cacert.server
