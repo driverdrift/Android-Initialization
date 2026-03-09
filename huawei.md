@@ -18,7 +18,7 @@ done
 首先卸载系统更新，不然设置时候会有更新弹窗  
 先关闭 智慧多窗再卸载，不然会有配置图标。  
 其他设置也是  
-杂志锁屏先打开再关闭，不然会有提示
+杂志锁屏先打开再卸载，不然会有提示
 ```
 pm uninstall com.huawei.ohos.suggestion # 小艺建议
 pm uninstall com.huawei.health # 运动健康
