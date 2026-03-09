@@ -14,6 +14,8 @@ for pkg in $(pm list packages -3 | cut -d':' -f2 | grep -Ev '^(io\.github\.munta
 done
 ```
 # system app
+先关闭 智慧多窗再卸载，不然会有配置图标。
+其他设置也是
 ```
 pm uninstall com.huawei.ohos.suggestion # 小艺建议
 pm uninstall com.huawei.health # 运动健康
