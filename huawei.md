@@ -75,5 +75,25 @@ pm uninstall --user 0 com.baidu.input_huawei # 百度输入法华为版
 pm uninstall --user 0 com.huawei.fastapp # 快应用中心
 pm uninstall --user 0 com.huawei.hwdockbar # 智慧多窗
 pm uninstall com.huawei.localBackup # 备份
+pm uninstall com.huawei.hbm # 智能短信插件
+pm uninstall com.huawei.tips # 智能提醒
+pm uninstall --user 0 com.huawei.pengine # 华为智能建议
+pm uninstall --user 0 com.huawei.hwdetectrepair # 智能检测
+pm uninstall --user 0 com.huawei.trustagent # 智能解锁
+pm uninstall --user 0 com.huawei.suggestion # 情景智能
+pm uninstall --user 0 com.huawei.securityserver # 安全公共服务
+pm uninstall --user 0 com.huawei.securitymgr # 安全组件
+pm uninstall --user 0 com.iflytek.speechsuite # 讯飞语音引擎
+pm uninstall --user 0 com.huawei.hilink.framework # 智慧生活基础服务
+pm uninstall --user 0 com.huawei.hitouch # 智慧识屏
+pm uninstall --user 0 com.huawei.scanner # 智慧视觉
+pm uninstall --user 0 com.huawei.controlcenter # 智慧协同
+pm uninstall --user 0 com.huawei.arengine.service # AREngineServer
+pm uninstall com.huawei.game.kitserver # GameKit
+pm uninstall --user 0 com.huawei.himovie.partner1 # HiMoviePlayerPlus
+pm uninstall --user 0 com.huawei.himovie.partner2 # HiMoviePlayerPlus
+pm uninstall --user 0 com.sohu.sohuvideo.emplayer # HiMoviePlayerPlus
+pm uninstall --user 0 com.tencent.qqlivehuawei # HiMoviePlayerPlus
+pm uninstall --user 0 com.huawei.hicar # Huawei HiCar
 ```
 全部设置完重启
