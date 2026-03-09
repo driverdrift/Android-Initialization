@@ -1,3 +1,4 @@
+首先断网，不然更新选项会有弹窗
 # Configure keyboard
 ```
 adb install "C:\My Data\Software Repository\Android\_com.google.android.inputmethod.latin_10.4.04.361808908-lite_release-arm64-v8a-52619238_minAPI27(arm64-v8a)(nodpi)_apkmirror.com.apk"
@@ -14,8 +15,9 @@ for pkg in $(pm list packages -3 | cut -d':' -f2 | grep -Ev '^(io\.github\.munta
 done
 ```
 # system app
-先关闭 智慧多窗再卸载，不然会有配置图标。
-其他设置也是
+首先卸载系统更新，不然设置时候会有更新弹窗
+先关闭 智慧多窗再卸载，不然会有配置图标。  
+其他设置也是  
 杂志锁屏先打开再关闭，不然会有提示
 ```
 pm uninstall com.huawei.ohos.suggestion # 小艺建议
@@ -73,3 +75,4 @@ pm uninstall --user 0 com.baidu.input_huawei # 百度输入法华为版
 pm uninstall --user 0 com.huawei.fastapp # 快应用中心
 pm uninstall --user 0 com.huawei.hwdockbar # 智慧多窗
 ```
+全部设置完重启
