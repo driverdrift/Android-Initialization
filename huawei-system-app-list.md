@@ -100,7 +100,7 @@ com.huawei.android.totemweather # 天气
 com.huawei.android.wfdft
 com.huawei.aod # 熄屏显示
 com.huawei.appmarket # 华为应用市场
-com.huawei.arengine.service
+com.huawei.arengine.service # AREngineServer
 com.huawei.assetsync
 com.huawei.assetsyncservice
 com.huawei.audioaccessorymanager
@@ -120,7 +120,7 @@ com.huawei.contacts
 com.huawei.contacts.sync
 com.huawei.contactscamcard
 com.huawei.contentsensor
-com.huawei.controlcenter
+com.huawei.controlcenter # 智慧协同
 com.huawei.def
 com.huawei.deskclock
 com.huawei.desktop.explorer
@@ -140,33 +140,33 @@ com.huawei.featurelayer.featureframework
 com.huawei.featurelayer.sharedfeature.map
 com.huawei.fido.uafclient
 com.huawei.filemanager
-com.huawei.game.kitserver
+com.huawei.game.kitserver # GameKit
 com.huawei.gameassistant # 应用助手
 com.huawei.gamebox # 游戏中心
 com.huawei.harmonyos.foundation
-com.huawei.hbm
+com.huawei.hbm # 智能短信插件
 com.huawei.health # 运动健康
 com.huawei.hff
 com.huawei.hiaction
 com.huawei.hiai
-com.huawei.hicar
+com.huawei.hicar # Huawei HiCar
 com.huawei.hicard
 com.huawei.hicloud
 com.huawei.hidisk # 云空间
 com.huawei.hifolder # 精品推荐
-com.huawei.hilink.framework
+com.huawei.hilink.framework # 智慧生活基础服务
 com.huawei.himovie # 华为视频
-com.huawei.himovie.partner1
-com.huawei.himovie.partner2
+com.huawei.himovie.partner1 # HiMoviePlayerPlus
+com.huawei.himovie.partner2 # HiMoviePlayerPlus
 com.huawei.hiskytone # 天际通
-com.huawei.hitouch
+com.huawei.hitouch # 智慧识屏
 com.huawei.hiview
 com.huawei.hiviewtunnel
 com.huawei.hms.dupdateengine
 com.huawei.hwasm
 com.huawei.hwblockchain
 com.huawei.hwddmp
-com.huawei.hwdetectrepair
+com.huawei.hwdetectrepair # 智能检测
 com.huawei.hwdiagnosis
 com.huawei.hwdockbar # 智慧多窗
 com.huawei.hwid
@@ -210,7 +210,7 @@ com.huawei.onehopsvcclient
 com.huawei.onehopsvchost
 com.huawei.parentcontrol
 com.huawei.pcassistant
-com.huawei.pengine
+com.huawei.pengine # 华为智能建议
 com.huawei.phone.recorder
 com.huawei.phoneservice # 我的华为
 com.huawei.photos
@@ -222,26 +222,26 @@ com.huawei.rcsserviceapplication
 com.huawei.recsys
 com.huawei.regservice
 com.huawei.remotepassword
-com.huawei.scanner
+com.huawei.scanner # 智慧视觉
 com.huawei.scenepack
 com.huawei.screenrecorder
 com.huawei.search # 智慧搜索
 com.huawei.searchservice
 com.huawei.secime
-com.huawei.securitymgr
+com.huawei.securitymgr # 安全组件
 com.huawei.securitypluginbase
-com.huawei.securityserver
+com.huawei.securityserver # 安全公共服务
 com.huawei.skytone
 com.huawei.smarthome
 com.huawei.smartshot
 com.huawei.soundrecorder # 录音机
 com.huawei.spaceservice
-com.huawei.suggestion
+com.huawei.suggestion # 情景智能
 com.huawei.synergy
 com.huawei.systemmanager
 com.huawei.systemserver
-com.huawei.tips
-com.huawei.trustagent
+com.huawei.tips # 智能提醒
+com.huawei.trustagent # 智能解锁
 com.huawei.trustcircle
 com.huawei.trustedthingsauth
 com.huawei.trustspace
@@ -253,7 +253,7 @@ com.huawei.wallet.sdk.walletsdk
 com.huawei.waudio
 com.huawei.webview
 com.huawei.wifiprobqeservice
-com.iflytek.speechsuite
+com.iflytek.speechsuite # 讯飞语音引擎
 com.petal.litegames # 花瓣轻游
 com.qualcomm.location
 com.qualcomm.qcrilmsgtunnel
@@ -261,8 +261,8 @@ com.qualcomm.qti.cne
 com.qualcomm.qti.qccauthmgr
 com.qualcomm.qti.qdma
 com.qualcomm.qti.telephonyservice
-com.sohu.sohuvideo.emplayer
-com.tencent.qqlivehuawei
+com.sohu.sohuvideo.emplayer # HiMoviePlayerPlus
+com.tencent.qqlivehuawei # HiMoviePlayerPlus
 com.unionpay.tsmservice
 com.vmall.client # 华为商城
 ohos.media.medialibrary
