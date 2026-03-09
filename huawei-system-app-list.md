@@ -113,7 +113,7 @@ com.huawei.ca
 com.huawei.calculator # 计算器
 com.huawei.calendar # 日历
 com.huawei.camera
-com.huawei.camerakit.impl
+com.huawei.camerakit.impl # HwCameraKit
 com.huawei.coauthservice
 com.huawei.compass # 指南针
 com.huawei.contacts
@@ -164,10 +164,10 @@ com.huawei.hiview
 com.huawei.hiviewtunnel
 com.huawei.hms.dupdateengine
 com.huawei.hwasm
-com.huawei.hwblockchain
+com.huawei.hwblockchain # HwBlockChain
 com.huawei.hwddmp
 com.huawei.hwdetectrepair # 智能检测
-com.huawei.hwdiagnosis
+com.huawei.hwdiagnosis # HwDiagnosis
 com.huawei.hwdockbar # 智慧多窗
 com.huawei.hwid
 com.huawei.hwireader # 阅读
@@ -190,7 +190,7 @@ com.huawei.mirror # 镜子
 com.huawei.mmitest
 com.huawei.motionservice
 com.huawei.msdp
-com.huawei.multimedia.audioengine
+com.huawei.multimedia.audioengine # HwAudioKit
 com.huawei.multimedia.hivideoplayengine
 com.huawei.music # 音乐
 com.huawei.mycenter # 会员中心
@@ -202,13 +202,13 @@ com.huawei.ohos.camera
 com.huawei.ohos.famanager
 com.huawei.ohos.health # 运动健康
 com.huawei.ohos.inputmethod # 小艺输入法
-com.huawei.ohos.photos
+com.huawei.ohos.photos # 图库
 com.huawei.ohos.search # 全局搜索数据服务
 com.huawei.ohos.smarthome # 智慧生活
 com.huawei.ohos.suggestion # 小艺建议
 com.huawei.onehopsvcclient
 com.huawei.onehopsvchost
-com.huawei.parentcontrol
+com.huawei.parentcontrol # 健康使用手机
 com.huawei.pcassistant
 com.huawei.pengine # 华为智能建议
 com.huawei.phone.recorder
@@ -226,7 +226,7 @@ com.huawei.scanner # 智慧视觉
 com.huawei.scenepack
 com.huawei.screenrecorder
 com.huawei.search # 智慧搜索
-com.huawei.searchservice
+com.huawei.searchservice # 融合搜索服务
 com.huawei.secime
 com.huawei.securitymgr # 安全组件
 com.huawei.securitypluginbase
