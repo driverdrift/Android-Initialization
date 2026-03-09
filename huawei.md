@@ -57,7 +57,7 @@ pm uninstall com.huawei.calculator # 计算器
 pm uninstall com.huawei.soundrecorder # 录音机
 pm uninstall --user 0 com.android.providers.calendar # 日历 # 卸载了图标还在
 pm disable-user com.android.providers.calendar # 日历 # 卸载了图标还在
-pm uninstall --user 0 com.android.providers.contacts # 联系人
+# pm uninstall --user 0 com.android.providers.contacts # 联系人存储  # 不要删除，删除后无法打开电话
 pm uninstall --user 0 com.huawei.intelligent # 智慧助手
 pm uninstall --user 0 com.huawei.browser # 浏览器
 pm disable-user com.huawei.android.hwouc # 软件更新
