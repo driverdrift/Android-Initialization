@@ -182,7 +182,7 @@ com.huawei.languagedownloader
 com.huawei.lbs
 com.huawei.lives # 生活服务
 com.huawei.livewallpaper.paradise # 超级壁纸
-com.huawei.localBackup
+com.huawei.localBackup # 备份
 com.huawei.magazine # 杂志锁屏
 com.huawei.mediacontroller
 com.huawei.meetime # 畅连
