@@ -50,7 +50,7 @@ com.android.printservice.recommendation
 com.android.printspooler
 com.android.providers.blockednumber
 com.android.providers.calendar # 日历
-com.android.providers.contacts # 联系人
+com.android.providers.contacts # 联系人存储  # 不要删除，删除后无法打开电话
 com.android.providers.downloads
 com.android.providers.media
 com.android.providers.media.module
