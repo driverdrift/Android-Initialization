@@ -103,4 +103,5 @@ pm uninstall --user 0 com.huawei.ohos.photos # 图库
 pm uninstall --user 0 com.huawei.searchservice # 融合搜索服务
 # pm uninstall --user 0 com.huawei.parentcontrol # 健康使用手机 # 无法卸载
 ```
+添加一键锁屏小组件
 全部设置完重启
