@@ -95,5 +95,12 @@ pm uninstall --user 0 com.huawei.himovie.partner2 # HiMoviePlayerPlus
 pm uninstall --user 0 com.sohu.sohuvideo.emplayer # HiMoviePlayerPlus
 pm uninstall --user 0 com.tencent.qqlivehuawei # HiMoviePlayerPlus
 pm uninstall --user 0 com.huawei.hicar # Huawei HiCar
+pm uninstall com.huawei.hwblockchain # HwBlockChain
+pm uninstall --user 0 com.huawei.multimedia.audioengine # HwAudioKit
+pm uninstall --user 0 com.huawei.camerakit.impl # HwCameraKit
+pm uninstall --user 0 com.huawei.hwdiagnosis # HwDiagnosis
+pm uninstall --user 0 com.huawei.ohos.photos # 图库
+pm uninstall --user 0 com.huawei.searchservice # 融合搜索服务
+# pm uninstall --user 0 com.huawei.parentcontrol # 健康使用手机 # 无法卸载
 ```
 全部设置完重启
