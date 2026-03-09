@@ -168,7 +168,7 @@ com.huawei.hwblockchain
 com.huawei.hwddmp
 com.huawei.hwdetectrepair
 com.huawei.hwdiagnosis
-com.huawei.hwdockbar
+com.huawei.hwdockbar # 智慧多窗
 com.huawei.hwid
 com.huawei.hwireader # 阅读
 com.huawei.hwpanpayservice
